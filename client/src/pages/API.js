@@ -7,8 +7,10 @@ import { faShieldAlt, faFileAlt, faDollarSign, faTrophy } from '@fortawesome/fre
 export default function API() {
   return (
     <>
+    <div className='h-90'>
       <Header />
-      <div className="bg-gradient-to-b from-[#703893] to-[#3f4195] h-half max-w-full flex flex-col md:flex-row pl-16 py-8 justify-center items-center">
+      <div style={{ 'clip-path': 'polygon(0 0, 100% 0, 100% 90%, 0% 100%)' }} className="flex bg-gradient-to-r from-[#703893] to-[#3f4195] h-[700px] w-full justify-center items-center"
+      >
         {/* Left Side Content */}
         <div className="flex-1  items-center justify-center font-custom w-full md:w-1/2 space-y-6  md:ml-36 ">
           <div className="mb-4 animate-fade-up animate-once">
@@ -88,7 +90,7 @@ export default function API() {
           </div>
         </div>
       </div>
-      <section className="py-16 bg-slate-100">
+      <section className="py-16 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Feature 1 */}
@@ -466,6 +468,7 @@ export default function API() {
   </div>
 </section>
 <Footer />
+</div>
 
 
     </>

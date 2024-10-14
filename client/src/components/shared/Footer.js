@@ -8,51 +8,51 @@ function Footer() {
     <footer className="border-t-2 max-w-full">
   <div className="bg-gray-100 md:pt-24 ">
     <div className="mx-auto w-full p-4 py-6  lg:py-8 md:pt-8">
-      <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mx-auto md:mx-36">
+      <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mx-auto md:mx-20">
         <div className="col-span-2 md:col-span-1 md:text-left  flex flex-col ">
           <a href="/#" className="flex items-center justify-center md:justify-start mb-4">
             <img src={logo} className="h-10" alt="Trustopay Logo" />
           </a>
-          <p className="text-gray-800 text-center md:text-left">
-            Your Shield for Secure Online Transactions.
+          <p className="text-gray-800 text-start w-50 md:text-left">
+          Our vision is to revolutionize the way financial transactions are conducted, fostering trust and security in every transaction.
           </p>
+        </div>
+        <div>
+          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Primary pages</h2>
+          <ul className="text-gray-500 font-medium">
+            <li className="mb-2"><a href="../" className="hover:underline">Home</a></li>
+            <li className="mb-2"><a href="./product/Api" className="hover:underline">Product</a></li>
+            <li className="mb-2"><a href="./usecases" className="hover:underline">Use cases</a></li>
+            <li><a href="./about" className="hover:underline">About</a></li>
+            <li><a href="./contact" className="hover:underline">contact</a></li>
+          </ul>
         </div>
         <div>
           <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Products</h2>
           <ul className="text-gray-500 font-medium">
-            <li className="mb-2"><a href="#" className="hover:underline">Payment Gateway</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Global Business Account</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Payouts</a></li>
-            <li><a href="/product/escrow" className="hover:underline">Escrow</a></li>
+            <li className="mb-2"><a href="./product/api" className="hover:underline">Api</a></li>
+            <li className="mb-2"><a href="./product/genuine" className="hover:underline">Genuine</a></li>
+            <li className="mb-2"><a href="./product/b2b" className="hover:underline">Trustopay app</a></li>
+            <li><a href="./product/escrow" className="hover:underline">Digital escrow</a></li>
           </ul>
         </div>
         <div>
-          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Solutions</h2>
+          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Use Cases</h2>
           <ul className="text-gray-500 font-medium">
-            <li className="mb-2"><a href="/usecases" className="hover:underline">Travel</a></li>
-            <li className="mb-2"><a href="/usecases" className="hover:underline">Online Gaming</a></li>
-            <li className="mb-2"><a href="/usecases" className="hover:underline">eCommerce Platforms</a></li>
-            <li><a href="/usecases" className="hover:underline">Fintech</a></li>
+            <li className="mb-2"><a href="./usecases" className="hover:underline">Fintech</a></li>
+            <li className="mb-2"><a href="./usecases" className="hover:underline">Ecommerce</a></li>
+            <li className="mb-2"><a href="./usecases" className="hover:underline">It Agencies</a></li>
+            <li><a href="./usecases" className="hover:underline">Digital Marketing</a></li>
+            <li><a href="./usecases" className="hover:underline">Freelancers</a></li>
+            <li><a href="./usecases" className="hover:underline">Second hand Goods</a></li>
           </ul>
         </div>
         <div>
-          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Resources</h2>
+          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Support</h2>
           <ul className="text-gray-500 font-medium">
-            <li className="mb-2"><a href="#" className="hover:underline">FAQ</a></li>
-            <li className="mb-2"><a href="/usecases" className="hover:underline">Case Studies</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Blogs</a></li>
-            <li><a href="#" className="hover:underline">Guides</a></li>
-          </ul>
-        </div>
-        <div>
-          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Legal</h2>
-          <ul className="text-gray-500 font-medium">
-            <li className="mb-2"><a href="/about" className="hover:underline">Team</a></li>
-            <li className="mb-2"><a href="/contact" className="hover:underline">Contact Us</a></li>
-            <li className="mb-2"><a href="/legal/privacypolicy" className="hover:underline">Responsible Disclosure</a></li>
-
+            <li className="mb-2"><a href="/about" className="hover:underline">Contact Us</a></li>
+            <li className="mb-2"><a href="/termsandcondition" className="hover:underline">Terms & Condition</a></li>
             <li className="mb-2"><a href="/legal/privacypolicy" className="hover:underline">Privacy Policy</a></li>
-
           </ul>
         </div>
       </div>

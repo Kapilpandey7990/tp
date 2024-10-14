@@ -202,9 +202,11 @@ function Header() {
 
           {/* Buttons */}
           <div className="flex md:space-x-4">
+            <Link to={"https://play.google.com/store/search?q=trustopay&c=apps&hl=en_US"}>
             <button className="hidden md:block border text-black bg-gradient-to-r from-[#703893] to-[#3f4195] border-indigo-600 py-2 px-4 rounded">
               <p className="text-lg md:text-md inline-block font-medium text-white ">Download  our App</p>
             </button>
+            </Link>
             {/* <button className="w-full md:w-32 bg-gradient-to-r from-[#703893] to-[#3f4195] inline-block text-white py-2 px-4 rounded">
               <p className="text-lg md:text-lg text-wrap inline-block font-medium">Sign Up</p>
             </button> */}

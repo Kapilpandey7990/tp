@@ -12,6 +12,7 @@ import API from './pages/API';
 import Error404 from "./pages/Error404"
 import Escrow from "./pages/Escrow"
 import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsAndCondition from './pages/TermsAndCondition';
 import UseCases from './pages/UseCases';
 import Blog from './pages/Blog';
 import CaseStudiesPage from './pages/CaseStudiesPage';
@@ -41,6 +42,7 @@ export default function App() {
       <Route path="/product/escrow"  element={<Escrow/>} />
       <Route path="/legal/privacypolicy"  element={<PrivacyPolicy/>} />
       <Route path='/usecases' element={<UseCases/>}/>
+      <Route path='/termsandcondition' element={<TermsAndCondition/>}/>
       {/* <Route path='/blog' element={<Blog/>}/> */}
       <Route path="/case-study" element={<CaseStudiesPage/>} />
       <Route path="/case-study/:caseStudyName" element={<CaseStudyDetail />} />

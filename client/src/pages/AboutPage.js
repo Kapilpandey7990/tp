@@ -4,7 +4,7 @@ import Footer from '../components/shared/Footer';
 import ImageAutoSlider from "../utils/ImageAutoSlider"
 import { FaAngleRight, FaTwitter, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-
+import { Link } from 'react-router-dom';
 
 
 
@@ -22,19 +22,19 @@ export default function AboutPage() {
 
   const teamMembers = [
     {
-      name: "Utkarsh ",
-      role: "CFO ",
+      name: "Utkarsh Mishra",
+      role: "CMO ",
       imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/Us.png", // replace with actual image path
     },
     {
-      name: "Ankit Kumar",
+      name: "Ankit Sharma",
       role: "CEO",
       imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/As.png", // replace with actual image path
     },
     {
-      name: "Ankit Kumar",
-      role: "CTO & CEO",
-      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/As.png", // replace with actual image path
+      name: "Jainish Gupta",
+      role: "CTO ",
+      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/Js.png", // replace with actual image path
     },
   ];
 
@@ -289,7 +289,6 @@ export default function AboutPage() {
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Quick onboarding</p>
-                  <p>User Testimonials and Case Studies:</p> 
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
@@ -304,7 +303,6 @@ export default function AboutPage() {
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
                   <p>Quick onboarding</p>
-                  <p>Engage with Target Audience</p> 
                 </li>
                 <li className='flex items-center space-x-4'>
                   <img src="https://easebuzz.in/static/base/assets_aug_2021/img/home/homepage_new/bullet_point_icon.svg" alt="" />
@@ -315,16 +313,15 @@ export default function AboutPage() {
 
             {/* Sign Up Button */}
             <div>
+              <Link to={"https://play.google.com/store/search?q=trustopay&c=apps&hl=en_US"}>
               <button className='inline-flex items-center gap-1 bg-gradient-to-b from-[#703893] to-[#3f4195] hover:bg-[#703893] text-white py-3 px-8 rounded-xl text-lg  transition'>
                 Download Our App <span><FaAngleRight /></span>
-
               </button>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-
-
 
       <Footer />
     </div>

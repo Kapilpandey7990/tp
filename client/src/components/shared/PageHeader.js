@@ -87,10 +87,15 @@ function Header() {
 
     {/* Logo */}
     <div className="text-2xl flex items-center font-bold">
-      <Link to="/">
-        <img className={`mt-2 md:w-32   ${!showHeader&& 'filter contrast-0 brightness-0'}`} src="https://trustopay.vercel.app/assets/images/trustopay_logo_m%201.png" alt="Logo" />
-      </Link>
-    </div>
+  <Link to="/">
+    <img
+      className={`mt-2 md:w-32 ${!showHeader && 'filter brightness-0 invert'}`}
+      src="https://trustopay.vercel.app/assets/images/trustopay_logo_m%201.png"
+      alt="Logo"
+    />
+  </Link>
+</div>
+
 
     {/* Desktop menu */}
     <div className="hidden md:flex space-x-8 items-center font-semibold">
@@ -197,9 +202,11 @@ function Header() {
 
     {/* Buttons */}
     <div className="flex md:space-x-4">
+      <Link to={"https://play.google.com/store/search?q=trustopay&c=apps&hl=en_US"}>
     <button className={`hidden md:block  text-white border-white  border ${showHeader &&  'text-white bg-gradient-to-r from-[#703893] to-[#3f4195]'} border-indigo-600 py-2 px-4 rounded`}>
               <p className="text-lg md:text-md inline-block font-medium  ">Download  our App</p>
             </button>
+            </Link>
       {/* <button className={`w-full md:w-32 ${!showHeader ? 'bg-white text-black' : 'bg-gradient-to-r from-[#703893] to-[#3f4195] text-white'} py-2 px-4 rounded`}>
         <p className="text-lg md:text-lg text-wrap inline-block font-medium">Sign Up</p>
       </button> */}

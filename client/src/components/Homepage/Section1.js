@@ -96,17 +96,17 @@ export default function Section1() {
 
       {/* Slider for Trusted By Companies */}
       <div className='h-40 p-2 bg-[#ffff]  -mt-20 md:mt-16 mb-8'>
-        <p className='text-md font-semibold font-sans text-start ml-2 md:ml-52  uppercase text-gray-600'>Trusted By</p>
+        <p className='text-md font-semibold font-sans text-start ml-2 md:ml-10  uppercase text-gray-600'>Trusted By</p>
         <div className='h-12 flex justify-center items-center mt-12'>
           <Marquee>
             <div className='flex gap-4 content-center '>
-              <img  src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6614c57a268f59685bcc80a3_lapakgaming.webp"  className='filter grayscale md:h-24 h-12'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4e26ee014753902fd96_teachmint.svg" className='filter grayscale md:h-24 h-12 ' alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4779392e68e4f2a3957_thrillophilia-p-500.png" className='filter grayscale md:h-24 h-12'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477ebace4f078c7d42b_82E.svg" className='filter grayscale md:h-24 h-12'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c9a5_indiamart.webp" className='filter grayscale md:h-24 h-12'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c998_global-TIX-p-500.png"  className='filter grayscale md:h-24 h-12' alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477332e14d7a9eea9c9_culture%20holidays.webp" className='filter grayscale md:h-24 h-12'  alt="" />
+              <img  src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6614c57a268f59685bcc80a3_lapakgaming.webp"  className='filter grayscale md:h-14 h-12'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4e26ee014753902fd96_teachmint.svg" className='filter grayscale md:h-14 h-12 ' alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4779392e68e4f2a3957_thrillophilia-p-500.png" className='filter grayscale md:h-14 h-12'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477ebace4f078c7d42b_82E.svg" className='filter grayscale md:h-14 h-12'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c9a5_indiamart.webp" className='filter grayscale md:h-14 h-12'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c998_global-TIX-p-500.png"  className='filter grayscale md:h-14 h-12' alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477332e14d7a9eea9c9_culture%20holidays.webp" className='filter grayscale md:h-14 h-12'  alt="" />
             </div>
           </Marquee>
         </div>

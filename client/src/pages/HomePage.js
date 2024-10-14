@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/shared/Header'
 import Footer from "../components/shared/Footer"
 
-
+import HeroSection from '../components/Homepage/Herosection'
 import Section1 from "../components/Homepage/Section1"
 import Section2 from '../components/Homepage/Section2'
 import Section3 from "../components/Homepage/Section3"
@@ -21,8 +21,8 @@ export default function HomePage() {
     <>
       <Header/>
       <ContactPopup/>
-
-    <Section1/>
+    <HeroSection/>
+    {/* <Section1/> */}
     <Section2/>
     <Section3/>
     <Section4/>
