@@ -80,7 +80,7 @@ export default function AboutPage() {
           </div>
           <div>
             <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/1.svg" alt="Clients Icon" className="w-12 mx-auto" />
-            <h3 className='text-white text-3xl font-bold'>1,50</h3>
+            <h3 className='text-white text-3xl font-bold'>150+</h3>
             <p className='text-white'>Happy clients</p>
           </div>
           <div>
@@ -90,18 +90,18 @@ export default function AboutPage() {
           </div>
           <div>
             <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/1.svg" alt="Transactions Icon" className="w-12 mx-auto" />
-            <h3 className='text-white text-3xl font-bold'>1 k+</h3>
+            <h3 className='text-white text-3xl font-bold'>10L+</h3>
             <p className='text-white'>Transactions processed per day</p>
           </div>
-          <div>
+          {/* <div>
             <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/5.svg" alt="Money Icon" className="w-12 mx-auto" />
             <h3 className='text-white text-3xl font-bold'>$10 Bn+</h3>
             <p className='text-white'>Annual GTV</p>
-          </div>
+          </div> */}
           <div>
             <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/stats-icon/5.svg" alt="Offices Icon" className="w-12 mx-auto" />
-            <h3 className='text-white text-3xl font-bold'>2 Offices</h3>
-            <p className='text-white'>Ahmedabad, Vadodara-HQ</p>
+            <h3 className='text-white text-3xl font-bold'>2 </h3>
+            <p className='text-white'>Round Of Funds Raised</p>
           </div>
         </div>
       </div>
@@ -203,20 +203,27 @@ export default function AboutPage() {
       </div>
 
       <div className="flex flex-col md:flex-row justify-between">
-        <div className="flex items-center mb-4 md:mb-0">
+        <div className="flex items-center mb-4 md:mb-0 flex-col">
           <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
             {/* Investor 4 Image */}
             <img src="https://trustopay.vercel.app/assets/images/our%20team/Us.png" alt="Investor 4" className="w-full h-full object-cover rounded-full" />
           </div>
-          <p className="font-medium text-gray-800">Amrish Rau</p>
+          <p className="font-medium text-gray-800">Sunish Gupta</p>
         </div>
 
-        <div className="flex items-center">
+        <div className="flex items-center flex-col">
           <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
             {/* Investor 5 Image */}
             <img src="https://trustopay.vercel.app/assets/images/our%20team/Us.png" alt="Investor 5" className="w-full h-full object-cover rounded-full" />
           </div>
-          <p className="font-medium text-gray-800">Jitendra Gupta</p>
+          <p className="font-medium text-gray-800">Nilesh Gupta</p>
+        </div>
+        <div className="flex items-center flex-col">
+          <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
+            {/* Investor 5 Image */}
+            <img src="https://trustopay.vercel.app/assets/images/our%20team/Us.png" alt="Investor 5" className="w-full h-full object-cover rounded-full" />
+          </div>
+          <p className="font-medium text-gray-800">Jaydeep Karamchandani</p>
         </div>
       </div>
     </div>

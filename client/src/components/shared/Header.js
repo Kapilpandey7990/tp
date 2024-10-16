@@ -150,7 +150,7 @@ function Header() {
                </div>
               )}
             </div>
-            <div onMouseEnter={() => handleMenuDropDownClick('usecases')}
+            {/* <div onMouseEnter={() => handleMenuDropDownClick('usecases')}
               className="relative">
               <button
                 className={`flex  items-center text-lg text-gray-700 hover:text-gray-500`}>
@@ -192,7 +192,7 @@ function Header() {
                   </ul>
                 </div>
               )}
-            </div>
+            </div> */}
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/about">About</Link>
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/contact">Contact</Link>
             {/* <Link className="text-lg text-gray-700 hover:text-gray-500" to="/case-study">Case Studies</Link> */}

@@ -1,5 +1,12 @@
 import React from 'react';
 import tpHome from "../../assets/trustopay-Home-page.jpg";
+import imgone from "../../assets/images/partners/one.png";
+import imgtwo from "../../assets/images/partners/2.png";
+import imgthree from "../../assets/images/partners/3.png";
+import imgfour from "../../assets/images/partners/4.png";
+import imgfive from "../../assets/images/partners/5.png";
+import imgsix from "../../assets/images/partners/6.png";
+import imgseven from "../../assets/images/partners/7.png";
 import HDashboard from "../../assets/Hdashboard.png";
 import Marquee from "react-fast-marquee";
 import AnimatedCities from "../../utils/AnimatedCities";
@@ -100,13 +107,19 @@ export default function Section1() {
         <div className='h-12 flex justify-center items-center mt-12'>
           <Marquee>
             <div className='flex gap-4 content-center '>
-              <img  src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6614c57a268f59685bcc80a3_lapakgaming.webp"  className='filter grayscale md:h-14 h-12'  alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4e26ee014753902fd96_teachmint.svg" className='filter grayscale md:h-14 h-12 ' alt="" />
+              <img  src={imgone} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+              <img  src={imgtwo} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+              <img  src={imgthree} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+              <img  src={imgfour} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+              <img  src={imgfive} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+              <img  src={imgsix} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+              <img  src={imgseven} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+              {/* <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4e26ee014753902fd96_teachmint.svg" className='filter grayscale md:h-14 h-12 ' alt="" />
               <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4779392e68e4f2a3957_thrillophilia-p-500.png" className='filter grayscale md:h-14 h-12'  alt="" />
               <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477ebace4f078c7d42b_82E.svg" className='filter grayscale md:h-14 h-12'  alt="" />
               <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c9a5_indiamart.webp" className='filter grayscale md:h-14 h-12'  alt="" />
               <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba47741ea3221d996c998_global-TIX-p-500.png"  className='filter grayscale md:h-14 h-12' alt="" />
-              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477332e14d7a9eea9c9_culture%20holidays.webp" className='filter grayscale md:h-14 h-12'  alt="" />
+              <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477332e14d7a9eea9c9_culture%20holidays.webp" className='filter grayscale md:h-14 h-12'  alt="" /> */}
             </div>
           </Marquee>
         </div>

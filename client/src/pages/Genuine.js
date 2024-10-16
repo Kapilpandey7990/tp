@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import debounce from 'lodash/debounce';
 import Header from '../components/shared/Header';
+import Coming from '../components/shared/Coming';
 
 export default function Genuine() {
   const [websites, setWebsites] = useState([]);
@@ -56,11 +57,11 @@ export default function Genuine() {
     <div className="flex flex-col min-h-screen w-full bg-[hsl(var(--background))] font-custom">
       <Header />
 
-      <header className="sticky top-0 z-10 flex h-16 w-full items-center justify-center bg-[hsl(var(--background))] px-4 sm:px-6 lg:px-8">
+      {/* <header className="sticky top-0 z-10 flex h-16 w-full items-center justify-center bg-[hsl(var(--background))] px-4 sm:px-6 lg:px-8">
         <h1 className="text-4xl bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text ">Genuine </h1>
-      </header>
+      </header> */}
 
-      <main className="flex-1 px-4 py-8 sm:px-6 lg:px-8">
+      {/* <main className="flex-1 px-4 py-8 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-8">
           <div className="relative flex-1 max-w-xl mx-auto mb-6">
             <svg
@@ -94,7 +95,7 @@ export default function Genuine() {
         </div>
 
         <div className="max-w-3xl mx-auto h-[calc(100vh-18rem)] overflow-y-auto hide-scrollbar">
-          {/* Verified Website Row */}
+         
           {websites.map((item, index) => (
             <div key={index} className="mb-6">
               <div className="group relative flex items-center rounded-lg bg-[hsl(var(--card))] p-6 shadow-md transition-all hover:bg-[hsl(var(--muted))] hover:shadow-lg">
@@ -121,45 +122,15 @@ export default function Genuine() {
                 ) }
                 
 
-                {/* <span className={`ml-auto ${item.verified==true?'text-green-500':'text-red-500'} font-medium`}  >  </span> */}
               </div>
             </div>
           ))}
 
-          {/* Non-Verified Websites Section */}
-          {/* <div className="mt-12">
-            <div className="flex justify-end items-center mb-4">
-              <h3 className="text-lg font-semibold text-[hsl(var(--foreground))] tracking-tight">
-                Non-Verified Websites
-              </h3>
-            </div>
-            <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {websites
-                .filter((site) => !site.verified)
-                .map((item, index) => (
-                  <div key={index} className="group relative rounded-lg bg-[hsl(var(--card))] p-6 shadow-md transition-all hover:bg-[hsl(var(--muted))] hover:shadow-lg">
-                    <a href={item.url} className="absolute inset-0 z-10">
-                      <span className="sr-only">View website</span>
-                    </a>
-                    <div className="flex h-20 w-full items-center justify-center rounded-lg overflow-hidden">
-                      <img
-                        src={item.imgSrc}
-                        alt={`${item.name} website logo`}
-                        className="h-full w-full object-cover"
-                      />
-                    </div>
-                    <div className="mt-4">
-                      <h3 className="text-lg font-semibold text-[hsl(var(--foreground))] tracking-tight">
-                        {item.name}
-                      </h3>
-                      {item.url && <p className="mt-1 text-sm text-blue-500">{item.url}</p>}
-                    </div>
-                  </div>
-                ))}
-            </div>
-          </div> */}
+          
         </div>
-      </main>
+      </main> */}
+      <Coming />
+
     </div>
   );
 }

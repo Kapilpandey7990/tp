@@ -31,7 +31,7 @@ export default function ContactPage() {
         {/* </div> */}
       </div>
       {/* <div> */}
-      <div className="w-full left-0 right-0 -translate-y-[450px] max-w-lg mx-auto absolute">
+      <div className="w-full left-0 right-0 -translate-y-[450px] max-w-lg my-auto mx-auto absolute">
   <form className="space-y-6 bg-white p-8 rounded-xl shadow-md">
     <div>
       <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900">Your Name</label>

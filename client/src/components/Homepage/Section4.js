@@ -84,9 +84,9 @@ export default function Section4() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {/* Fintech */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:scale-105 hover:bg-opacity-75">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/664c18ee5ec4dc64f5867d95_travel-hero-image-p-800.webp)` }} />
+            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://t3.ftcdn.net/jpg/02/88/37/68/360_F_288376845_YhDccSGoMfiKyR5NnZlZEGdF6hECEeAc.jpg)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
-            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Trusted</h2>
+            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Fintech</h2>
             <div className='text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100'>
               <p>Secures digital transactions and prevents fraud.</p>
             </div>
@@ -94,9 +94,9 @@ export default function Section4() {
 
           {/* Ecommerce */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-700 hover:rotate-3">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6653c7146067bfa4a450c44a_img_hero_gaming.webp)` }} />
+            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://imgs.search.brave.com/FFWMHQsGAoXw-bXDeMV4GpmOwpPYcQSZrFMamFIwitU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9lY29tbWVyY2Ut/Y29uY2VwdF8xMjY4/MTU2LTYzNy5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
-            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Guaranteed Payments</h2>
+            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Ecommerce</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
               <p>Smooth, secure payments with escrow protection.</p>
             </div>
@@ -104,9 +104,9 @@ export default function Section4() {
 
           {/* IT Agencies */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:translate-y-2">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-105 grayscale group-hover:grayscale-0" style={{ backgroundImage: `url(https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/663a76422e4331e3ab5e1fab_img_ecommerce-p-1080.webp)` }} />
+            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-105 grayscale group-hover:grayscale-0" style={{ backgroundImage: `url(https://imgs.search.brave.com/XEKgDFn-tmPPPmYibnzMfQxc1ZSeVbwNsCyFtYiQptE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjE0/NzU5MTI2My9waG90/by9oYXBweS1idXNp/bmVzcy10ZWFtLXdv/cmtpbmctdG9nZXRo/ZXItdXNpbmctYS1s/YXB0b3AtYXQtdGhl/LW9mZmljZS1hbmQt/c21pbGluZy53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9THVuN2ZL/c3F5WG5PbjNJempz/T05pQmE5WUVmTFo2/dlREb0pFOVJMLUM1/cz0)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
-            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">End to End Services</h2>
+            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">IT Agencies</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
               <p>Reliable payments and project management.</p>
             </div>
@@ -114,9 +114,9 @@ export default function Section4() {
 
           {/* Digital Marketing */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:scale-110">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-105 group-hover:scale-100" style={{ backgroundImage: `url(https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6687e1871d4ae1461b838b0c_img_hero-fintech.webp)` }} />
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-105 group-hover:scale-100" style={{ backgroundImage: `url(https://imgs.search.brave.com/GNaDw9F6tCu9C5dQ6NtQHmPh6yTkOptnBbJWJMk-eOQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTY2/NTA5MzYyMy9waG90/by9kaWdpdGFsLW1h/cmtldGluZy1hbmQt/dGVjaG5vbG9neS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/b29BX0VEbVFrX1Fj/VHpfbHpHNldLSWNK/VDl1aURKdU56dFpj/TS0wRWNxUT0)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
-            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-125  ">Cost Effective</h2>
+            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-125  ">Digital Marketing</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
               <p>Easy payment collection and financial tracking.</p>
             </div>
@@ -124,9 +124,9 @@ export default function Section4() {
 
           {/* Freelancers */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:rotate-6">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/665fd296317531c068364cc8_img_saas-hero-image-p-800.webp)` }} />
+            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://imgs.search.brave.com/GSsnOeOvCM8Ogk6u9LBsSwRI8B0-LVUII3iM_LvRxDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/ODc1Mzc3MDg1NzIt/M2M4NTBiNWU4NTZl/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjAuMyZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1USjhmR1p5/WldWc1lXNWpaWEo4/Wlc1OE1IeDhNSHg4/ZkRBPQ)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
-            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Help When You Need</h2>
+            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Freelancers</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
               <p>Milestone-based payments and reduced delays.</p>
             </div>
@@ -137,7 +137,7 @@ export default function Section4() {
           <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-105 grayscale group-hover:-translate-x-4 group-hover:scale-125 group-hover:grayscale-0" style={{ 
           backgroundImage: `url(https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/6684dbd4df6d281e89579cdb_img_digitalproducts-hero-image-p-500.webp)` }}/>            <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
 
-            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-125">Dispute Resolution</h2>
+            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-125">Second-hand Goods</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
               <p>Trusted transactions for pre-owned items.</p>
             </div>

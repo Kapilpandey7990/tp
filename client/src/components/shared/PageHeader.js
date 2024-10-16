@@ -150,7 +150,7 @@ function Header() {
           </div>
         )}
       </div>
-      <div onMouseEnter={() => handleMenuDropDownClick('usecases')} className="relative">
+      {/* <div onMouseEnter={() => handleMenuDropDownClick('usecases')} className="relative">
         <button className={`flex items-center text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`}>
           Use Cases <svg className="w-2.5 h-2.5 ms-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" /></svg>
         </button>
@@ -160,7 +160,7 @@ function Header() {
             onMouseEnter={() => handleMenuDropDownClick('usecases')} 
             className="absolute bg-white shadow-lg rounded-lg mt-2 w-[200px]"
           >
-            <ul className="py-2 text-black"> {/* Change text color to black */}
+            <ul className="py-2 text-black"> 
               <li>
                 <a onClick={() => handleDropdownClick('/usecases')} className="flex items-center px-4 py-2 hover:bg-gray-200 cursor-pointer">
                   <FontAwesomeIcon icon={faMoneyBillWave} className="mr-2" /> Fintech
@@ -194,7 +194,7 @@ function Header() {
             </ul>
           </div>
         )}
-      </div>
+      </div> */}
       <a className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} href='/about'  to="/about">About</a>
       <a className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} href='/contact'>Contact</a>
       {/* <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/case-study">Case Studies</Link> */}

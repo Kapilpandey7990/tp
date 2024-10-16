@@ -12,6 +12,7 @@ import Section6 from "../components/Homepage/Section6"
 import Section7 from "../components/Homepage/Section7"
 import ContactPopup from '../utils/ContactPopup'
 import FaqComponent from "../components/FaqComponent"
+import { BiQuestionMark } from 'react-icons/bi'
 
 
 export default function HomePage() {
@@ -23,7 +24,70 @@ export default function HomePage() {
       <ContactPopup/>
     {/* <HeroSection/> */}
     <Section1/>
-    <Section2/>
+    {/* <Section2/> */}
+    <div className='min-h-screen bg-gradient-to-b from-[#703893] to-[#3f4195] max-w-full overflow-hidden'>
+        <div className='flex justify-center items-center h-24'>
+          <h2 className='text-3xl md:text-5xl font-custom text-white text-center'>
+            How Does Escrow Work
+          </h2><BiQuestionMark size={62} color='white' />
+        </div>
+
+        <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-4 md:mx-64'>
+          <div className='bg-white rounded-xl h-72 w-full p-6 shadow-lg'>
+            <p className='text-2xl font-bold text-[#703893] mb-4'>1</p>
+            <img className='mx-auto mb-4' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65ec32f465acaa4acbb1e900_icon-large_send-escrow.svg" alt="Send Escrow Request" />
+            <p className='font-bold mb-2'>Send Escrow Request</p>
+            <p className='text-gray-700 text-md'>
+              Provide transaction details and send an escrow payment request to your vendor.
+            </p>
+          </div>
+
+          <div className='bg-white rounded-xl h-72 w-full p-6 shadow-lg'>
+            <p className='text-2xl font-bold text-[#703893] mb-4'>2</p>
+            <img className='mx-auto mb-4' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65ec32f465acaa4acbb1e900_icon-large_send-escrow.svg" alt="Send Escrow Request" />
+            <p className='font-bold mb-2'>Send Escrow Request</p>
+            <p className='text-gray-700 text-md'>
+              Provide transaction details and send an escrow payment request to your vendor.
+            </p>
+          </div>
+
+          <div className='bg-white rounded-xl h-72 w-full p-6 shadow-lg'>
+            <p className='text-2xl font-bold text-[#703893] mb-4'>3</p>
+            <img className='mx-auto mb-4' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65ec32f465acaa4acbb1e900_icon-large_send-escrow.svg" alt="Send Escrow Request" />
+            <p className='font-bold mb-2'>Send Escrow Request</p>
+            <p className='text-gray-700 text-md'>
+              Provide transaction details and send an escrow payment request to your vendor.
+            </p>
+          </div>
+
+          <div className='bg-white rounded-xl h-72 w-full p-6 shadow-lg'>
+            <p className='text-2xl font-bold text-[#703893] mb-4'>4</p>
+            <img className='mx-auto mb-4' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65ec32f465acaa4acbb1e900_icon-large_send-escrow.svg" alt="Send Escrow Request" />
+            <p className='font-bold mb-2'>Send Escrow Request</p>
+            <p className='text-gray-700 text-md'>
+              Provide transaction details and send an escrow payment request to your vendor.
+            </p>
+          </div>
+
+          <div className='bg-white rounded-xl h-72 w-full p-6 shadow-lg'>
+            <p className='text-2xl font-bold text-[#703893] mb-4'>5</p>
+            <img className='mx-auto mb-4' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65ec32f465acaa4acbb1e900_icon-large_send-escrow.svg" alt="Send Escrow Request" />
+            <p className='font-bold mb-2'>Send Escrow Request</p>
+            <p className='text-gray-700 text-md'>
+              Provide transaction details and send an escrow payment request to your vendor.
+            </p>
+          </div>
+
+          <div className='bg-white rounded-xl h-72 w-full p-6 shadow-lg'>
+            <p className='text-2xl font-bold text-[#703893] mb-4'>6</p>
+            <img className='mx-auto mb-4' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65ec32f465acaa4acbb1e900_icon-large_send-escrow.svg" alt="Send Escrow Request" />
+            <p className='font-bold mb-2'>Send Escrow Request</p>
+            <p className='text-gray-700 text-md'>
+              Provide transaction details and send an escrow payment request to your vendor.
+            </p>
+          </div>
+        </div>
+      </div>
     <Section3/>
     <Section4/>
     <Section5/>

@@ -36,7 +36,7 @@ export default function Section3() {
           className={`w-full  md:row-span-1 text-wrap flex justify-start items-start ${headingInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
         <h2 className="font-bold text-4xl md:text-6xl  bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text flex items-start justify-center leading-tight md:leading-tight">
-        Trustpay Process Explained
+          Empowering Safe Payments for All
         </h2>
       </div>
 
@@ -55,9 +55,9 @@ export default function Section3() {
           className={`bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747] w-4/3 md:w-5/6 ${info1InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start space-y-4'>
-          <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>Step 1</h3>
-            <p className='text-2xl font-bold  bg-gradient-to-r from-[#703893] to-[#3f4195]  bg-clip-text text-transparent'>Create Transaction</p>
-            <p className='text-start text-black font-semibold w-full'>Agree on terms and create a secure transaction on the platform.
+          <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>100% </h3>
+            <p className='text-2xl font-bold  bg-gradient-to-r from-[#703893] to-[#3f4195]  bg-clip-text text-transparent'>Transaction Security</p>
+            <p className='text-start text-black font-semibold w-full'>Ensuring every payment is protected with advanced encryption and escrow services.
             </p>
           </div>
         </div>
@@ -68,10 +68,10 @@ export default function Section3() {
           className={`bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747] w-4/3  md:w-5/6 ${info1InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start space-y-4'>
-            <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>Step 2
+            <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>15 Lacs+ 
             </h3>
-            <p className='text-2xl font-bold bg-gradient-to-r from-[#703893] to-[#3f4195]  bg-clip-text text-transparent'>Secure Payment</p>
-            <p className='text-start text-black font-semibold  w-full'>Buyer deposits funds into Trustpay Escrow Account.
+            <p className='text-2xl font-bold bg-gradient-to-r from-[#703893] to-[#3f4195]  bg-clip-text text-transparent'>Processed</p>
+            <p className='text-start text-black font-semibold  w-full'>Over 15 lacs in transactions successfully handled, in over partnerships with 40 Agencies.
             </p>
           </div>
         </div>
@@ -82,24 +82,24 @@ export default function Section3() {
           className={` bg-[#f1f1f1] row-span-1 col-span-2 rounded-xl shadow-md p-8 text-[#0B3747]  w-4/3  md:w-5/6  ${info2InView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
           <div className='flex flex-col justify-center items-start space-y-4'>
-            <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>Step 3</h3>
-            <p className='text-2xl  font-bold bg-gradient-to-r from-[#703893] to-[#3f4195]  bg-clip-text text-transparent'>Work & Delivery</p>
-            <p className='text-start text-black  font-semibold w-full'>Seller completes the work/delivers the product.</p>
+            <h3 className='text-4xl  font-bold bg-gradient-to-b from-[#703893] to-[#703893]  bg-clip-text text-transparent'>+80%</h3>
+            <p className='text-2xl  font-bold bg-gradient-to-r from-[#703893] to-[#3f4195]  bg-clip-text text-transparent'>Higher success Rate</p>
+            <p className='text-start text-black  font-semibold w-full'>With Trustopay achieve an 80% increase in conversion rates and business growth.</p>
           </div>
         </div>
       </div>
 
       <div className='flex justify-center items-center '>
-        <a href='https://play.google.com/store/apps/details?id=com.trustopay.android&hl=en'>
         <button type="button" className="bg-[#703893] text-white shadow-lg hover:bg-[#8965e4] py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border border-gray-200  focus:outline-none focus:bg-[#a097f3] disabled:opacity-50 disabled:pointer-events-none">
-          Download Now
+          Learn More
           <svg className="shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
             <path d="M5 12h14"></path>
             <path d="m12 5 7 7-7 7"></path>
           </svg>
         </button>
-        </a>
       </div>
     </div>
   )
 }
+
+// https://play.google.com/store/apps/details?id=com.trustopay.android&hl=en

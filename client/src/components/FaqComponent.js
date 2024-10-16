@@ -8,19 +8,43 @@ const FaqComponent = () => {
     rows: [
       {
         title: "What is Trustopay?",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        content: "Trustopay is a secure online escrow platform designed to ensure safe payments between buyers and sellers. We hold funds in escrow until both parties are satisfied with the transaction, minimizing risks such as fraud and non-payment."
       },
       {
-        title: "How Trustopay will help you?",
-        content: "Phasellus bibendum ipsum at viverra egestas."
+        title: "How does Trustopay work?",
+        content: "Trustopay acts as a trusted third party in online transactions. When a buyer makes a payment, the funds are held securely in escrow until the product or service is delivered as agreed. Once the transaction is completed to both parties' satisfaction, the funds are released to the seller."
       },
       {
-        title: "How Trustopay is Different from other platform?",
-        content: "Donec tempor tellus sed cursus finibus."
+        title: "Who can use trustopay?",
+        content: "Trustopay is designed for freelancers, small businesses, e-commerce platforms, and individuals engaging in online transactions. Whether you’re a service provider, seller, or buyer, Trustopay provides a secure and transparent way to manage payments."
       },
       {
-        title: "What are the payout options for receiving my payments?",
-        content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        title: "What types of transactions are supported?",
+        content: "Trustopay supports a wide range of transactions, including freelance services, e-commerce purchases, digital marketing projects, software development, and even high-value transactions like real estate and import-export services."
+      },
+      {
+        title: "How are disputes handled?",
+        content: "Trustopay has a simple 3-step, 7-day dispute resolution process. If there’s a disagreement between the buyer and seller, both parties can submit their claims. Trustopay’s team will review the case and resolve the issue quickly and fairly."
+      },
+      {
+        title: "What are milestone payments, and how do they work?",
+        content: "Milestone payments allow funds to be released in stages as portions of a project are completed. This feature is especially useful for freelancers and clients working on long-term projects, ensuring that payments are made for completed work incrementally."
+      },
+      {
+        title: "What are the fees for using Trustopay?",
+        content: "Trustopay charges a small service fee for managing the escrow process. The exact fee depends on the type and value of the transaction. The fee will be clearly displayed before the transaction begins."
+      },
+      {
+        title: "How do I get started with Trustopay?",
+        content: "Getting started is simple! Just sign up for an account, create a transaction by entering the details, and invite the other party to join. Once both parties agree to the terms, Trustopay will hold the payment until the transaction is complete."
+      },
+      {
+        title: "What industries can benefit from using Trustopay?",
+        content: "Trustopay is beneficial for industries such as digital marketing, freelance work, e-commerce, software development, real estate, and import-export. We are also planning to expand into more industries where secure payments are essential."
+      },
+      {
+        title: "Is my payment secure with Trustopay?",
+        content: "Yes, your payment is fully secure with Trustopay. We use advanced encryption and security protocols to ensure that all transactions are safe from fraud, theft, and cyberattacks."
       }
     ]
   };
