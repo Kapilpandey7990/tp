@@ -66,34 +66,35 @@ export default function Section2() {
             <div className='gap-4 w-full md:w-1/2 flex flex-col  items-center '>
               {/* 1 */}
               <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">5+ Partnered Banks</h2>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Secure Escrow</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">
-                    <span className="mr-2 text-indigo-500">•</span> Seamless Bank Connectivity
+                    <span className="mr-2 text-indigo-500">•</span> Money held safely until both parties fulfill obligations.
                   </li>
-                  <li className="flex items-center">
+                  {/* <li className="flex items-center">
                     <span className="mr-2 text-indigo-500">•</span> Multiple Banks Supported
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="flex justify-center">
                   <img
                     src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e78496161087c9f53b9427_img_alipay-scan.svg"
                     alt="QR Code"
-                    className="transform scale-100 h-60 w-80 md:h-full"
+                    className="transform scale-100 h-30 w-80 md:h-full"
                   />
                 </div>
               </div>
 
               {/* 2 */}
               <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">Custom Contracts Creation</h2>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Dispute Resolution</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">
-                    <span className="mr-2 text-indigo-500">•</span> Tailored Transaction Agreements
+                    <span className="mr-2 text-indigo-500">•</span> CreationDispute Resolution
+                    Fair and fast resolution of disagreements.
                   </li>
-                  <li className="flex items-center">
+                  {/* <li className="flex items-center">
                     <span className="mr-2 text-indigo-500">•</span> Clear, Transparent Terms
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="flex justify-center">
                   <img
@@ -108,14 +109,14 @@ export default function Section2() {
             <div className='gap-4 w-full md:w-1/2 flex flex-col items-center'>
               {/* 3 */}
               <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">Milestone-Based Payments</h2>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Project Managment</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">
-                    <span className="mr-2 text-indigo-500">•</span> Secure Payment Process
+                    <span className="mr-2 text-indigo-500">•</span> Tools to streamline collaboration and track progress.
                   </li>
-                  <li className="flex items-center">
+                  {/* <li className="flex items-center">
                     <span className="mr-2 text-indigo-500">•</span> Funds Released Safely
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="flex justify-center">
                   <img
@@ -128,14 +129,14 @@ export default function Section2() {
 
               {/* 4 */}
               <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
-                <h2 className="text-xl font-semibold text-gray-900 mb-3">Fast Dispute Resolution</h2>
+                <h2 className="text-xl font-semibold text-gray-900 mb-3">Secure Payments</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">
-                    <span className="mr-2 text-indigo-500">•</span> Swift Conflict Handling
+                    <span className="mr-2 text-indigo-500">•</span> Advanced encryption and fraud prevention for user agreements.
                   </li>
-                  <li className="flex items-center">
+                  {/* <li className="flex items-center">
                     <span className="mr-2 text-indigo-500">•</span> 3-Step Quick Resolution
-                  </li>
+                  </li> */}
                 </ul>
                 <div className="flex justify-center">
                   <img

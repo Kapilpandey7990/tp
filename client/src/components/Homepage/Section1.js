@@ -59,7 +59,7 @@ export default function Section1() {
               className='w-40 h-auto' 
             />
             <p className='text-lg font-normal'>TOP 100 Fintechs</p>
-          </div>
+          </div>  
           <div className='flex gap-2 items-center mt-4 '>
             <img 
               src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/659d468bdaad532c6fe82609_g2.svg" 

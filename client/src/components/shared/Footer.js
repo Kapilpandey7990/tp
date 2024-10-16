@@ -21,7 +21,7 @@ function Footer() {
           <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Primary pages</h2>
           <ul className="text-gray-500 font-medium">
             <li className="mb-2"><a href="../" className="hover:underline">Home</a></li>
-            <li className="mb-2"><a href="/Api" className="hover:underline">Product</a></li>
+            <li className="mb-2"><a href="product/Api" className="hover:underline">Product</a></li>
             <li className="mb-2"><a href="/usecases" className="hover:underline">Use cases</a></li>
             <li><a href="/about" className="hover:underline">About</a></li>
             <li><a href="/contact" className="hover:underline">contact</a></li>
@@ -31,8 +31,8 @@ function Footer() {
           <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Products</h2>
           <ul className="text-gray-500 font-medium">
             <li className="mb-2"><a href="/product/api" className="hover:underline">Api</a></li>
-            <li className="mb-2"><a href="/product/genuine" className="hover:underline">Genuine</a></li>
-            <li className="mb-2"><a href="/product/b2b" className="hover:underline">Trustopay app</a></li>
+            <li className="mb-2"><a href="/genuine" className="hover:underline">Genuine</a></li>
+            <li className="mb-2"><a href="https://play.google.com/store/apps/details?id=com.trustopay.android&hl=en&pli=1" className="hover:underline">Trustopay app</a></li>
             <li><a href="/product/escrow" className="hover:underline">Digital escrow</a></li>
           </ul>
         </div>

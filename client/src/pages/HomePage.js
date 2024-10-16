@@ -21,8 +21,8 @@ export default function HomePage() {
     <>
       <Header/>
       <ContactPopup/>
-    <HeroSection/>
-    {/* <Section1/> */}
+    {/* <HeroSection/> */}
+    <Section1/>
     <Section2/>
     <Section3/>
     <Section4/>
