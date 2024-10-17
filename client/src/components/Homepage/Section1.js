@@ -7,6 +7,8 @@ import imgfour from "../../assets/images/partners/4.png";
 import imgfive from "../../assets/images/partners/5.png";
 import imgsix from "../../assets/images/partners/6.png";
 import imgseven from "../../assets/images/partners/7.png";
+import video from "../../assets/WhatsApp Video 2024-07-28 at 2.16.06 PM.mp4"
+import "../Homepage/Section1.css"
 import HDashboard from "../../assets/Hdashboard.png";
 import Marquee from "react-fast-marquee";
 import AnimatedCities from "../../utils/AnimatedCities";
@@ -80,25 +82,35 @@ export default function Section1() {
         </div>
 
         {/* Hide mobile image (tpHome) on mobile devices */}
-        <div className="absolute animate-fade-up animate-once hidden md:block  z-40  top-36  md:left-[840px]   ">
+        {/* <div className="absolute animate-fade-up animate-once hidden md:block  z-40  top-36  md:left-[840px]   ">
           <div className="animated-image flex items-center relative mx-auto border-[#ECECEC] dark:border-[#ECECEC] mb-4 border-[8px] rounded-[2.5rem] h-[500px] w-[250px] shadow-xl">
             <div className="rounded-[2rem] overflow-hidden w-[234px] h-[488px] bg-white dark:bg-gray-800">
               <img src={tpHome} className="block w-full h-full" alt="Mobile Mockup" />
             </div>
           </div>
-        </div>
+        </div> */}
 
         {/* Right Side Content */}
-        <div className="w-full md:w-1/2 h-[500px] flex justify-end  items-center relative -mt-16 md:mt-0 gap-4">
+        {/* <div className="w-full md:w-1/2 h-[500px] flex justify-end  items-center relative -mt-16 md:mt-0 gap-4">
           <div className=' hidden md:block md:w-10'></div>
 
-          {/* Show HDashboard image on all screen sizes */}
+        
           <div className='animate-fade-left w-full md:w-auto shadow-md md:shadow-md bg-white mb-12 rounded-xl'>
             <div className='flex justify-end items-center'>
               <img className='w-full h-[300px] md:h-[550px] object-cover rounded-xl' src={HDashboard} alt="Dashboard" />
             </div>
           </div>
-        </div>
+        </div> */}
+        <div className="hero-media">
+  <div className="video-wrapper">
+    <div className="circle-background"></div>
+    <video id="hero-video" autoPlay muted loop>
+      <source src={video} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
       </div>
 
       {/* Slider for Trusted By Companies */}

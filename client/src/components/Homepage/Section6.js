@@ -2,6 +2,11 @@ import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { useNavigate } from 'react-router-dom';
 import phpe from "../../assets/images/partners/phpe.png"
+import ps1 from "../../assets/images/partners/ps1.svg";
+import ps2 from "../../assets/images/partners/ps2.svg";
+import ps3 from "../../assets/images/partners/ps3.svg";
+import ps4 from "../../assets/images/partners/ps4.svg";
+import ps5 from "../../assets/images/partners/ps5.svg";
 
 export default function Section6() {
   const [activeSection, setActiveSection] = useState('first');
@@ -30,31 +35,31 @@ export default function Section6() {
       title: "Reach Customers Everywhere",
       description: "Share payment links through WhatsApp, SMS, email, chat, or any medium, reaching customers wherever they are.",
       color: "purple",
-      logo: "https://via.placeholder.com/50?text=📲" // Placeholder logo
+      logo: ps1 // Placeholder logo
     },
     {
       title: "Optimise Sales by 2X",
       description: "Customise your payment links by setting up your brand logo, send automatic payment reminders, set expiry dates to limit payments, or cancel links if your plans change.",
       color: "orange",
-      logo: "https://via.placeholder.com/50?text=📈" // Placeholder logo
+      logo: ps2 // Placeholder logo
     },
     {
       title: "Leverage Social Media to Boost Your Brand",
       description: "Utilise platforms like Facebook, Instagram, and WhatsApp to boost your D2C brand's visibility. Share payment links directly through these channels, ensuring a convenient and rapid checkout process for your customers.",
       color: "red",
-      logo: "https://via.placeholder.com/50?text=📣" // Placeholder logo
+      logo: ps3 // Placeholder logo
     },
     {
       title: "Offer Diverse Payment Methods",
       description: "Offer convenience with diverse payment options including UPI, credit/debit cards, and net banking options, with a secure checkout experience.",
       color: "green",
-      logo: "https://via.placeholder.com/50?text=💳" // Placeholder logo
+      logo: ps4 // Placeholder logo
     },
     {
       title: "Experience Real Time Tracking",
       description: "Stay updated with your transactions, monitor daily sales, and access detailed settlement reports for a clear view of funds in your account.",
       color: "blue",
-      logo: "https://via.placeholder.com/50?text=📊" // Placeholder logo
+      logo: ps5 // Placeholder logo
     }
   ];
   
@@ -239,7 +244,7 @@ export default function Section6() {
                 {/* Point Content */}
                 <div className="flex items-start">
                   <div
-                    className={`flex items-center justify-center w-12 h-12 rounded-full bg-${benefit.color}-400 text-white mr-4`}
+                    className={`flex items-center justify-center w-12 h-12 rounded-full  text-white mr-4`}
                   >
                     <img
                       src={benefit.logo}
