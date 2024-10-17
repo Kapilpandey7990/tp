@@ -1,5 +1,6 @@
 import React from 'react'
 import Header from '../components/shared/Header'
+import PageHeader from '../components/shared/PageHeader';
 import Footer from "../components/shared/Footer"
 import { BiQuestionMark } from 'react-icons/bi'
 import Section2 from '../components/Homepage/Section2'
@@ -32,11 +33,11 @@ const BusinessUseCaseCard = ({ icon, title, description }) => {
 export default function Escrow() {
   return (
     <>
-      <Header />
-      <div className=" h-screen max-w-full bg-gradient-to-b from-[#703893] to-[#3f4195] flex flex-col md:flex-row pl-16 justify-center items-center">
+      <PageHeader />
+      <div className=" h-full max-w-full bg-gradient-to-b from-[#703893] to-[#3f4195] flex flex-col md:flex-row pl-16 justify-center items-center">
         {/* Left Side Content */}
-        <div className="flex-1 items-center justify-center font-custom w-full md:w-1/2 space-y-6  -translate-y-16 md:ml-36 ">
-          <div className="mb-4 animate-fade-up animate-once">
+        <div className="flex-1 items-center justify-center font-custom w-full md:w-1/2 space-y-0  -translate-y-16 md:ml-36 ">
+          <div className="mb-4 animate-fade-up animate-once mt-32">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">
               Protect Your Payments with Digital Escrow
             </h1>
@@ -44,7 +45,7 @@ export default function Escrow() {
           {/* <p className=" animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-3xl font-bold">
           Secure Transactions, Built on Trust
           </p> */}
-          <div className="space-y-6 flex flex-col gap-2 animate-fade-up animate-once animate-delay-[500ms]">
+          <div className="space-y-1 flex flex-col gap-2 animate-fade-up animate-once animate-delay-[500ms]">
             {/* <p className='font-normal font-sans text-xl text-black'>Rapid Payment Processing Across 173+ Countries Without Local Entities
           .</p>
           <p className='font-normal font-sans text-xl text-black '>Instantly access 80+ diverse local payment methods, manage multi-currency transactions, and ensure compliance.
@@ -79,7 +80,7 @@ export default function Escrow() {
                 </p>
               </div>
             </div>
-            <div className="flex  items-center gap-2">
+            <div className="flex  items-center gap-2 ">
               <div>
                 <img
                   src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65dca05d564ae2c370d071cb_tazapay-protection.svg"

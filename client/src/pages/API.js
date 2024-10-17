@@ -10,13 +10,13 @@ export default function API() {
   return (
     <>
       <div className="h-90">
-        <PageHeader />
-        {/* <Coming /> */}
-        <div
+        <Header />
+        <Coming />
+        {/* <div
           style={{ "clip-path": "polygon(0 0, 100% 0, 100% 90%, 0% 100%)" }}
           className="flex bg-gradient-to-r from-[#703893] to-[#3f4195] h-[700px] w-full justify-center items-center"
         >
-          {/* Left Side Content */}
+          
           <div className="flex-1  items-center justify-center font-custom w-full md:w-1/2 space-y-6  md:ml-36 ">
             <div className="mb-4 animate-fade-up animate-once">
               <h1 className="text-3xl md:text-7xl font-bold text-white mb-2">
@@ -82,10 +82,10 @@ export default function API() {
             </div>
           </div>
 
-          {/* Right Side Content */}
+          
           <div className="w-full md:w-1/2  flex justify-center items-center ">
-            {/* <div className=' rounded-tl-xl animate-fade-up hidden md:block animate-once w-[500px] h-[600px] bg-gradient-to-r from-[#3f4195] to-[#703893]'>
-          </div> */}
+            <div className=' rounded-tl-xl animate-fade-up hidden md:block animate-once w-[500px] h-[600px] bg-gradient-to-r from-[#3f4195] to-[#703893]'>
+          </div>
             <div className=" animate-fade-right transform -translate-x-12 ">
               <img
                 className=" w-[400px] h-[500px] items-center object-cover rounded-xl"
@@ -94,12 +94,12 @@ export default function API() {
               />
             </div>
           </div>
-        </div>
+        </div> */}
 
-        <section className="py-16 bg-white">
+        {/* <section className="py-16 bg-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Feature 1 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faShieldAlt}
@@ -114,7 +114,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 2 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faFileAlt}
@@ -128,7 +128,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 3 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faDollarSign}
@@ -142,7 +142,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 4 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faTrophy}
@@ -158,9 +158,9 @@ export default function API() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="bg-white py-12">
+        {/* <section className="bg-white py-12">
           <div className="max-w-2xl mx-auto text-center px-4">
             <h1 className="text-4xl font-bold mb-4">Heading</h1>
             <p className="text-gray-600 text-lg leading-relaxed">
@@ -173,12 +173,14 @@ export default function API() {
               View Documentation
             </button>
           </div>
-        </section>
+        </section> */}
 
-        <section className="bg-slate-100 py-12">
+        {/* <section className="bg-slate-100 py-12">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
-              {/* Left Column: API Description */}
+              
+              Left Column: API Description
+              
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
                   <div className="bg-gray-100 p-4 rounded-lg shadow-lg">
@@ -209,9 +211,9 @@ export default function API() {
                 </button>
               </div>
 
-              {/* Right Column: API Features */}
+              
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
-                {/* Feature 1 */}
+                
                 <div className="flex space-x-4">
                   <div className="flex-shrink-0">
                     <div className="bg-blue-100 p-3 rounded-full">📄</div>
@@ -226,7 +228,7 @@ export default function API() {
                   </div>
                 </div>
 
-                {/* Feature 2 */}
+                
                 <div className="flex space-x-4">
                   <div className="flex-shrink-0">
                     <div className="bg-blue-100 p-3 rounded-full">🔗</div>
@@ -240,7 +242,7 @@ export default function API() {
                   </div>
                 </div>
 
-                {/* Feature 3 */}
+                
                 <div className="flex space-x-4">
                   <div className="flex-shrink-0">
                     <div className="bg-blue-100 p-3 rounded-full">📊</div>
@@ -255,7 +257,7 @@ export default function API() {
                   </div>
                 </div>
 
-                {/* Feature 4 */}
+                
                 <div className="flex space-x-4">
                   <div className="flex-shrink-0">
                     <div className="bg-blue-100 p-3 rounded-full">👨‍💻</div>
@@ -272,11 +274,13 @@ export default function API() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="bg-white py-12 flex justify-center items-center">
+        {/* <section className="bg-white py-12 flex justify-center items-center">
           <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4">
-            {/* Left Side: Image */}
+            
+            Left Side: Image
+
             <div className="flex justify-end w-full md:w-1/2">
               <img
                 src="https://via.placeholder.com/400"
@@ -285,7 +289,8 @@ export default function API() {
               />
             </div>
 
-            {/* Right Side: Heading and Paragraph */}
+            Right Side: Heading and Paragraph
+
             <div className="flex flex-col justify-start w-full md:w-1/2 text-left mt-8 md:mt-0 md:ml-8">
               <h2 className="text-3xl font-bold mb-4">Your Heading Here</h2>
               <p className="text-lg text-gray-600">
@@ -295,12 +300,12 @@ export default function API() {
               </p>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="py-16 bg-slate-100">
+        {/* <section className="py-16 bg-slate-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {/* Feature 1 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faShieldAlt}
@@ -315,7 +320,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 2 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faFileAlt}
@@ -329,7 +334,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 3 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faDollarSign}
@@ -343,7 +348,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 4 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faTrophy}
@@ -358,7 +363,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 5 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faShieldAlt}
@@ -373,7 +378,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 6 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faFileAlt}
@@ -386,7 +391,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 7 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faDollarSign}
@@ -401,7 +406,7 @@ export default function API() {
                 </p>
               </div>
 
-              {/* Feature 8 */}
+              
               <div className="text-center p-6 bg-gray-50 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
                 <FontAwesomeIcon
                   icon={faTrophy}
@@ -417,9 +422,9 @@ export default function API() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="py-16 bg-gray-50">
+        {/* <section className="py-16 bg-gray-50">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <h2 className="text-3xl font-medium text-center mb-4">
               What Our Users Say
@@ -432,7 +437,7 @@ export default function API() {
               et.
             </p>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {/* Testimonial Card 1 */}
+              
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <p className="text-gray-600 mb-4">
                   "The service provided by this platform has been outstanding! I
@@ -452,7 +457,6 @@ export default function API() {
                 </div>
               </div>
 
-              {/* Testimonial Card 2 */}
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <p className="text-gray-600 mb-4">
                   "I was skeptical at first, but this platform changed my mind.
@@ -472,7 +476,6 @@ export default function API() {
                 </div>
               </div>
 
-              {/* Testimonial Card 3 */}
               <div className="bg-white p-6 rounded-lg shadow-lg">
                 <p className="text-gray-600 mb-4">
                   "This platform has transformed the way I conduct business
@@ -493,9 +496,9 @@ export default function API() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
 
-        <section className="bg-gradient-to-b from-[#703893] to-[#3f4195] py-16 bg-blue-500 text-white">
+        {/* <section className="bg-gradient-to-b from-[#703893] to-[#3f4195] py-16 bg-blue-500 text-white">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0 md:w-1/2">
               <h2 className="text-3xl font-bold mb-4">Join Us Today!</h2>
@@ -513,7 +516,7 @@ export default function API() {
               </button>
             </div>
           </div>
-        </section>
+        </section> */}
 
         <Footer />
       </div>

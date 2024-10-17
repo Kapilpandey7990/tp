@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import axios from 'axios';
 import debounce from 'lodash/debounce';
 import Header from '../components/shared/Header';
+import Footer from '../components/shared/Footer';
 import Coming from '../components/shared/Coming';
 
 export default function Genuine() {
@@ -130,6 +131,7 @@ export default function Genuine() {
         </div>
       </main> */}
       <Coming />
+      <Footer />
 
     </div>
   );

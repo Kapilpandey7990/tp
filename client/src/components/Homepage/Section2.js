@@ -13,6 +13,7 @@ export default function Section2() {
   });
 
   return (
+    <>
     <div className='h-auto bg-gradient-to-b from-[#703893] to-[#3f4195] max-w-full overflow-hidden'>
       <div className='flex justify-center items-center'>
         <div className='mt-12'>
@@ -152,5 +153,6 @@ export default function Section2() {
       </div>
       
     </div>
+    </>
   );
 }

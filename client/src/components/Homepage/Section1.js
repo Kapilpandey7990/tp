@@ -32,7 +32,7 @@ export default function Section1() {
           Secure Transactions, Built on Trust
           </p>
           <div className='space-y-6   animate-fade-up animate-once animate-delay-[500ms]'>
-          <p className='font-normal font-sans text-xl text-black'>Empower your business with Trustopay, the secure peer-to-peer payment platform.</p>
+          <p className='font-normal font-sans text-xl text-black'>Empower your business with Trustopay,<br/> the secure peer-to-peer payment platform.</p>
           <p className='font-normal font-sans text-xl text-black '>Ensure safe and transparent payments, no matter the  <br />transaction </p>
           </div>
           <div className='flex justify-start items-center'>

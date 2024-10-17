@@ -64,11 +64,17 @@ function Footer() {
           © 2024 <a href="https://trustopay.com/" className="hover:underline">Trustopay</a>. All Rights Reserved.
         </span>
         <div className="flex space-x-6 mt-4 md:mt-0 justify-center md:justify-start">
-          <a href="https://www.linkedin.com/company/trustopayy/" className="text-gray-500 hover:text-gray-900">
-            <img src={facebookImg} alt="Facebook" className="w-6" />
+          <a href="https://chat.whatsapp.com/FJVuxQuTKk3GZdKyre8q70" className="text-gray-500 hover:text-gray-900">
+            <img src={"https://img.icons8.com/pastel-glyph/64/whatsapp--v2.png"} alt="Facebook" className="w-6" />
           </a>
           <a href="https://www.linkedin.com/company/trustopayy/"  className="text-gray-500 hover:text-gray-900">
             <img src={linkedinImg} alt="LinkedIn" className="w-6" />
+          </a>
+          <a href="https://www.instagram.com/trustopay_official?igsh=Z3R2NW9qMm90aWgz"  className="text-gray-500 hover:text-gray-900">
+            <img src={"https://img.icons8.com/fluency-systems-filled/50/instagram-new.png"} alt="LinkedIn" className="w-6" />
+          </a>
+          <a href="https://www.youtube.com/@Trustopay"  className="text-gray-500 hover:text-gray-900">
+            <img src={"https://img.icons8.com/ios-filled/50/youtube-play.png"} alt="LinkedIn" className="w-6" />
           </a>
         </div>
       </div>

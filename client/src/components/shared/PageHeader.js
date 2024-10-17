@@ -140,7 +140,7 @@ function Header() {
               </li>
               <li>
                 <a 
-                  onClick={() => handleDropdownClick('/product/escrow')} 
+                  href='/product/escrow'
                   className="flex items-center px-4 py-2 hover:bg-gray-200 cursor-pointer"
                 >
                   <FontAwesomeIcon icon={faLock} className="mr-2" /> Digital Escrow

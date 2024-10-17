@@ -2,9 +2,13 @@ import React, { useState } from 'react';
 import PageHeader from '../components/shared/PageHeader';
 import Footer from '../components/shared/Footer';
 import ImageAutoSlider from "../utils/ImageAutoSlider"
+import collage from "../assets/images/about_us/collage.png"
 import { FaAngleRight, FaTwitter, FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { Link } from 'react-router-dom';
+import sunish from "../assets/images/about_us/IMG-20241016-WA0006.jpg"
+import nilesh from "../assets/images/about_us/IMG-20241016-WA0007.jpg"
+import jaydeep from "../assets/images/about_us/IMG-20241016-WA0008.jpg"
 
 
 
@@ -150,7 +154,7 @@ export default function AboutPage() {
   </div>
 
       <div class="md:w-1/2 mt-6 md:mt-0 pr-12">
-        <img src="https://easebuzz.in/static/base/assets_aug_2021/img/easebuzz/about-new/our-people-our-brand/culture-1.png" alt="Our People and Culture" class="w-full rounded-lg "/>
+        <img src={collage} alt="Our People and Culture" class="w-full rounded-lg "/>
       </div>
     </div>
 
@@ -190,15 +194,15 @@ export default function AboutPage() {
       <div className="flex justify-center md:justify-between space-x-6 mb-6">
         <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center">
           {/* Investor 1 Image */}
-          <img src="https://planify-main.s3.amazonaws.com/media/blog/images/Funding-01_AJbxH1m.jpg" alt="Investor 1" className="w-full h-full object-cover rounded-full" />
+          <img src="https://miro.medium.com/v2/1*hRFl1Fa6uGppqxf3BmGEoA.png" alt="Investor 1" className="w-auto h-auto object-cover rounded-full" />
         </div>
         <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center">
           {/* Investor 2 Image */}
-          <img src="https://planify-main.s3.amazonaws.com/media/blog/images/Funding-01_AJbxH1m.jpg" alt="Investor 2" className="w-full h-full object-cover rounded-full" />
+          <img src="https://static.wixstatic.com/media/8436e2_657c4b658c6949338b5139848e4ca8b9~mv2.png/v1/fill/w_126,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8436e2_657c4b658c6949338b5139848e4ca8b9~mv2.png" alt="Investor 2" className="w-auto h-auto object-cover rounded-full" />
         </div>
         <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center">
           {/* Investor 3 Image */}
-          <img src="https://planify-main.s3.amazonaws.com/media/blog/images/Funding-01_AJbxH1m.jpg" alt="Investor 3" className="w-full h-full object-cover rounded-full" />
+          <img src="https://apideltech.com/wp-content/uploads/2023/06/logo_new.png" alt="Investor 3" className="w-auto h-auto object-cover rounded-full" />
         </div>
       </div>
 
@@ -206,7 +210,7 @@ export default function AboutPage() {
         <div className="flex items-center mb-4 md:mb-0 flex-col">
           <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
             {/* Investor 4 Image */}
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/Us.png" alt="Investor 4" className="w-full h-full object-cover rounded-full" />
+            <img src={sunish} alt="Investor 4" className="w-full h-full object-cover rounded-full" />
           </div>
           <p className="font-medium text-gray-800">Sunish Gupta</p>
         </div>
@@ -214,14 +218,14 @@ export default function AboutPage() {
         <div className="flex items-center flex-col">
           <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
             {/* Investor 5 Image */}
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/Us.png" alt="Investor 5" className="w-full h-full object-cover rounded-full" />
+            <img src={nilesh} alt="Investor 5" className="w-full h-full object-cover rounded-full" />
           </div>
           <p className="font-medium text-gray-800">Nilesh Gupta</p>
         </div>
         <div className="flex items-center flex-col">
           <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
             {/* Investor 5 Image */}
-            <img src="https://trustopay.vercel.app/assets/images/our%20team/Us.png" alt="Investor 5" className="w-full h-full object-cover rounded-full" />
+            <img src={jaydeep} alt="Investor 5" className="w-full h-full object-cover rounded-full" />
           </div>
           <p className="font-medium text-gray-800">Jaydeep Karamchandani</p>
         </div>
