@@ -1,3 +1,5 @@
+
+
 .hero-media {
     display: flex;
     justify-content: center;
@@ -19,13 +21,13 @@
     position: absolute;
     width: 600px;
     height: 400px;
-    background-color: #e563f3;
+    /* background-color: #e563f3; */
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 10%;
     z-index: 1;
-    background-image: url("../../assets/Hdashboard.png");
+    background-image: url("../../assets/images/partners/dash.png");
   }
   
   #hero-video {
@@ -59,6 +61,7 @@
       max-height: 400px;
     }
   }
+
   
   @media (max-width: 768px) {
     .hero-media {
@@ -73,12 +76,14 @@
     }
   
     .circle-background {
-      width: 503px;
+      width: 603px;
       height: 303px;
     }
   
     #hero-video {
-      max-height: 300px;
+      max-height: 340px;
+      border-radius: 20px;
+        border: 1px solid;
     }
   }
   @media (max-width: 680px) {
@@ -94,12 +99,14 @@
     }
   
     .circle-background {
-      width: 403px;
-      height: 303px;
+      width: 503px;
+      height: 323px;
     }
   
     #hero-video {
-      max-height: 300px;
+      max-height: 340px;
+      border-radius: 20px;
+        border: 1px solid;
     }
   }
   @media (max-width: 580px) {
@@ -121,12 +128,14 @@
   
     #hero-video {
       max-height: 300px;
+      border-radius: 20px;
+        border: 1px solid;
     }
   }
   
   @media (max-width: 480px) {
     .hero-media {
-        margin: 16px 0 108px 53px;
+        margin: 16px 0 108px 30px;
       flex-direction: column;
       align-items: center;
     }
@@ -136,18 +145,20 @@
     }
   
     .circle-background {
-      width: 300px;
-      height: 203px;
+      width: 350px;
+      height: 233px;
     }
   
     #hero-video {
-      max-height: 200px;
+        max-height: 250px;
+        border-radius: 20px;
+        border: 1px solid;
     }
   }
   
   @media (max-width: 400px) {
     .hero-media {
-        margin: 16px 0 108px 53px;
+        margin: 16px 0 108px 30px;
       flex-direction: column;
       align-items: center;
     }
@@ -157,12 +168,12 @@
     }
   
     .circle-background {
-      width: 250px;
-      height: 180px;
+      width: 330px;
+      height: 200px;
     }
   
     #hero-video {
-      max-height: 200px;
+      max-height: 220px;
       border-radius: 20px;
       border: 1px solid;
     }

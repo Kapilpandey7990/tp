@@ -18,13 +18,12 @@ export default function Section1() {
     <div className='h-auto max-w-full overflow-hidden'>
       <div className='flex flex-col md:flex-row items-start px-4  md:px-0  mt-16 md:mt-24'>
         {/* Left Side Content */}
-        <div className="flex-1 font-custom w-full md:w-1/2 space-y-4 md:space-y-6  justify-end md:ml-48 transform -translate-y-8 md:-translate-y-8">
+        <div className="flex-1 font-custom w-full md:w-1/2 space-y-4 md:space-y-6  justify-center md:ml-12 md:mr-24  transform -translate-y-8 md:-translate-y-8">
           <div className='mb-2 md:mb-4 animate-fade-up animate-once max-w-full'>
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-2">
               Your Trusted Payment   
             </h1>
             <h1 className='text-4xl md:text-5xl font-bold text-black'>Solution for</h1>
-           
             <h1 className='mt-2 md:mt-4  max-h-24 bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text md:text-5xl flex items-center text-[#0A86B7] break-words'>
               <AnimatedCities />
             </h1>
@@ -65,7 +64,7 @@ export default function Section1() {
             <img 
               src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e2c634feddec420d2fd650_CB%20INSJGHS.svg" 
               alt="CB Insights Logo" 
-              className='w-40 h-auto' 
+              className='w-40 h-auto'
             />
             <p className='text-lg font-normal'>TOP 100 Fintechs</p>
           </div>  

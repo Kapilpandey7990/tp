@@ -124,7 +124,7 @@
     position: absolute;
     width: 600px;
     height: 400px;
-    background-color: #e563f3;
+    /* background-color: #e563f3; */
     border-radius: 10% 10% 10% 10%;
     z-index: 1;
   }
