@@ -19,8 +19,7 @@ export default function Section5() {
             Trustopay offers comprehensive protection for your transactions, ensuring secure payments, fraud prevention, and seamless compliance.
           </p>
         </div>
-
-        <div    style={{
+        <div style={{
       backgroundImage: `url(${bgImg})`,
       backgroundPosition: 'center bottom',  // Horizontally centered, vertically aligned to bottom
       backgroundSize: 'cover',              // Ensures the image covers the entire area

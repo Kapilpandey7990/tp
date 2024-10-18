@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import { useNavigate } from 'react-router-dom';
 import phpe from "../../assets/images/partners/phpe.png"
-import ps1 from "../../assets/images/partners/ps1.svg";
-import ps2 from "../../assets/images/partners/ps2.svg";
-import ps3 from "../../assets/images/partners/ps3.svg";
-import ps4 from "../../assets/images/partners/ps4.svg";
-import ps5 from "../../assets/images/partners/ps5.svg";
+import ps1 from "../../assets/images/shape/1.svg";
+import ps2 from "../../assets/images/shape/2.svg";
+import ps3 from "../../assets/images/shape/3.svg";
+import ps4 from "../../assets/images/shape/4.svg";
+import ps5 from "../../assets/images/shape/5.svg";
 
 export default function Section6() {
   const [activeSection, setActiveSection] = useState('first');

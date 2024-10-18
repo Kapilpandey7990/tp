@@ -10,8 +10,8 @@ function Footer() {
     <div className="mx-auto w-full p-4 py-6  lg:py-8 md:pt-8">
       <div className="grid grid-cols-1 md:grid-cols-5 gap-8 mx-auto md:mx-20">
         <div className="col-span-2 md:col-span-1 md:text-left  flex flex-col ">
-          <a href="/#" className="flex items-center justify-center md:justify-start mb-4">
-            <img src={logo} className="h-10" alt="Trustopay Logo" />
+          <a href="/#" className="flex items-center justify-center md:justify-start mb-1.5">
+            <img src={logo} className="h-15" alt="Trustopay Logo" />
           </a>
           <p className="text-gray-800 text-start w-50 md:text-left">
           Our vision is to revolutionize the way financial transactions are conducted, fostering trust and security in every transaction.

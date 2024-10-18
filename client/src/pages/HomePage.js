@@ -13,9 +13,63 @@ import Section7 from "../components/Homepage/Section7"
 import ContactPopup from '../utils/ContactPopup'
 import FaqComponent from "../components/FaqComponent"
 import { BiQuestionMark } from 'react-icons/bi'
+import Icon1 from "../assets/images/shape/credit-card (2).png";
+import Icon2 from "../assets/images/shape/authenticity (1).png";
+import Icon3 from "../assets/images/shape/payment.png";
+import Icon4 from "../assets/images/shape/proof-reading (1).png";
+import Icon5 from "../assets/images/shape/question-mark (1).png";
+import Icon6 from "../assets/images/shape/tick-mark (1).png";
+
 
 
 export default function HomePage() {
+
+  
+    const steps = [
+      {
+        number: "1",
+        title: "Send Payment Request",
+        description:
+          "Provide transaction details and send a payment request to your customer.",
+        icon: Icon5,
+      },
+      {
+        number: "2",
+        title: "Accept Request",
+        description:
+          "Counterparty to create a Trustopay account and accept your payment request.",
+        icon: Icon6,
+      },
+      {
+        number: "3",
+        title: "Payment to Trustopay",
+        description:
+          "Buyer transfers the invoice amount, and Trustopay safeguards the funds.",
+        icon: Icon3,
+      },
+      {
+        number: "4",
+        title: "Provide Proof of Service",
+        description:
+          "Vendor provides proof of service delivery to proceed with the payment.",
+        icon: Icon4,
+      },
+      {
+        number: "5",
+        title: "Trustopay Verifies Documents",
+        description:
+          "Trustopay verifies the submitted documents based on the agreement.",
+        icon: Icon2,
+      },
+      {
+        number: "6",
+        title: "Payment Release",
+        description:
+          "Once verified, the payment is released, and the vendor receives funds within 48 hours.",
+        icon: Icon1,
+      },
+    ];
+  
 
  
   return(
@@ -25,7 +79,7 @@ export default function HomePage() {
     {/* <HeroSection/> */}
     <Section1/>
     {/* <Section2/> */}
-    <div className='min-h-screen bg-gradient-to-b from-[#703893] to-[#3f4195] max-w-full overflow-hidden'>
+    {/* <div className='min-h-screen bg-gradient-to-b from-[#703893] to-[#3f4195] max-w-full overflow-hidden'>
         <div className='flex justify-center items-center h-24'>
           <h2 className='text-3xl md:text-5xl font-custom text-white text-center'>
             How Does Escrow Work
@@ -87,7 +141,42 @@ export default function HomePage() {
             </p>
           </div>
         </div>
+      </div> */}
+
+<section className="bg-[#6b3893] py-12 px-4 md:px-12">
+      {/* Title */}
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-10">
+        How Does Trustopay Work?
+      </h2>
+
+      {/* Steps Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+        {steps.map((step) => (
+          <div key={step.number} className="relative bg-white p-6 rounded-xl shadow-lg text-center">
+            {/* Number on top-left corner */}
+            <div className="absolute top-4 left-4 text-xl font-bold text-gray-500">
+              {step.number}
+            </div>
+
+            {/* Icon/Logo */}
+            <img
+              src={step.icon}
+              alt={`${step.title} Icon`}
+              className="w-12 h-12 mx-auto mb-4"
+            />
+
+            {/* Title and Description */}
+            <h3 className="text-xl font-semibold text-gray-900 mt-2">
+              {step.title}
+            </h3>
+            <p className="text-gray-600 mt-2">{step.description}</p>
+          </div>
+        ))}
       </div>
+
+      
+    </section>
+
     <Section3/>
     <Section4/>
     <Section5/>

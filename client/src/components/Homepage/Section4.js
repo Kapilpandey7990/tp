@@ -83,18 +83,31 @@ export default function Section4() {
       <div className="mx-auto flex justify-center gap-24 items-center flex-wrap mt-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
           {/* Fintech */}
-          <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:scale-105 hover:bg-opacity-75">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://t3.ftcdn.net/jpg/02/88/37/68/360_F_288376845_YhDccSGoMfiKyR5NnZlZEGdF6hECEeAc.jpg)` }} />
-            <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
-            <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Fintech</h2>
-            <div className='text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100'>
-              <p>Secures digital transactions and prevents fraud.</p>
-            </div>
-          </div>
+          <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:scale-105">
+  {/* Background image */}
+  <div 
+    className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" 
+    style={{ backgroundImage: `url(https://images.pexels.com/photos/7621131/pexels-photo-7621131.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2)` }} 
+  />
+
+  {/* Overlay layer with reduced opacity on hover */}
+  <div className="absolute inset-0 bg-[#273C43] opacity-40 group-hover:opacity-40 transition-opacity duration-300" />
+
+  {/* Title */}
+  <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">
+    Fintech
+  </h2>
+
+  {/* Description that fades in on hover */}
+  <div className='text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100'>
+    <p>Secures digital transactions and prevents fraud.</p>
+  </div>
+</div>
+
 
           {/* Ecommerce */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-700 hover:rotate-3">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://imgs.search.brave.com/FFWMHQsGAoXw-bXDeMV4GpmOwpPYcQSZrFMamFIwitU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/cHJlbWl1bS1waG90/by9lY29tbWVyY2Ut/Y29uY2VwdF8xMjY4/MTU2LTYzNy5qcGc_/c2l6ZT02MjYmZXh0/PWpwZw)` }} />
+            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125 hover:opacity-50" style={{ backgroundImage: `url(https://imgs.search.brave.com/4G3b9VbyvaHp5kH2XYAvX1ACsw7XVa5iuFSIYPu9nQA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTM2/NjA0MDMzMi9waG90/by9zaG9wcGluZy1v/bmxpbmUtd2l0aC1w/aG9uZS5qcGc_cz02/MTJ4NjEyJnc9MCZr/PTIwJmM9ZjZzY0NU/TWp4MVIyZ1lJQmpW/alZhcFVSb2xNQjJp/VVhNZkc0SWNqSDN4/cz0)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
             <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Ecommerce</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
@@ -104,7 +117,7 @@ export default function Section4() {
 
           {/* IT Agencies */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:translate-y-2">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-105 grayscale group-hover:grayscale-0" style={{ backgroundImage: `url(https://imgs.search.brave.com/XEKgDFn-tmPPPmYibnzMfQxc1ZSeVbwNsCyFtYiQptE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMjE0/NzU5MTI2My9waG90/by9oYXBweS1idXNp/bmVzcy10ZWFtLXdv/cmtpbmctdG9nZXRo/ZXItdXNpbmctYS1s/YXB0b3AtYXQtdGhl/LW9mZmljZS1hbmQt/c21pbGluZy53ZWJw/P2E9MSZiPTEmcz02/MTJ4NjEyJnc9MCZr/PTIwJmM9THVuN2ZL/c3F5WG5PbjNJempz/T05pQmE5WUVmTFo2/dlREb0pFOVJMLUM1/cz0)` }} />
+            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-105 grayscale group-hover:grayscale-0" style={{ backgroundImage: `url(https://imgs.search.brave.com/bk97Tm631KSmWLZWEeTKr0UB5-3WPoX_4VqC-rVmsdg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by9n/cm91cC1hc2lhLXlv/dW5nLWNyZWF0aXZl/LXBlb3BsZS1zbWFy/dC1jYXN1YWwtd2Vh/ci1kaXNjdXNzaW5n/LWJ1c2luZXNzLWJy/YWluc3Rvcm1pbmdf/Nzg2MS0zMDY2Lmpw/Zz9zaXplPTYyNiZl/eHQ9anBn )` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
             <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">IT Agencies</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
@@ -114,7 +127,7 @@ export default function Section4() {
 
           {/* Digital Marketing */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:scale-110">
-            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-105 group-hover:scale-100" style={{ backgroundImage: `url(https://imgs.search.brave.com/GNaDw9F6tCu9C5dQ6NtQHmPh6yTkOptnBbJWJMk-eOQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTY2/NTA5MzYyMy9waG90/by9kaWdpdGFsLW1h/cmtldGluZy1hbmQt/dGVjaG5vbG9neS5q/cGc_cz02MTJ4NjEy/Jnc9MCZrPTIwJmM9/b29BX0VEbVFrX1Fj/VHpfbHpHNldLSWNK/VDl1aURKdU56dFpj/TS0wRWNxUT0)` }} />
+            <div className="absolute inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-105 group-hover:scale-100" style={{ backgroundImage: `url(https://imgs.search.brave.com/_1XqhBgXWOv3Zgoy_jez1KOVtvHKekhK4qCLqpfrCTY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMz/NDU5MTYxNC9waG90/by9tYW4tdXNpbmct/ZGlnaXRhbC10YWJs/ZXQtb25saW5lLWNv/bm5lY3QtdG8taW50/ZXJuZXQtYmFua2lu/Zy1jdXJyZW5jeS1l/eGNoYW5nZS1vbmxp/bmUtc2hvcHBpbmcu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PW5lakE1U3VIY04y/ZkFkTzdCa2FmOXBK/cnd6eUxQQkN5T0xa/Z01hc2xHa289)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
             <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-125  ">Digital Marketing</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
@@ -124,7 +137,7 @@ export default function Section4() {
 
           {/* Freelancers */}
           <div className="relative group w-[340px] h-[420px] overflow-hidden rounded-xl shadow-lg cursor-pointer animate-fade-up animate-once animate-ease-in transition-all duration-500 hover:rotate-6">
-            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://imgs.search.brave.com/GSsnOeOvCM8Ogk6u9LBsSwRI8B0-LVUII3iM_LvRxDs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMudW5zcGxhc2gu/Y29tL3Bob3RvLTE0/ODc1Mzc3MDg1NzIt/M2M4NTBiNWU4NTZl/P2ZtPWpwZyZxPTYw/Jnc9MzAwMCZpeGxp/Yj1yYi00LjAuMyZp/eGlkPU0zd3hNakEz/ZkRCOE1IeHpaV0Z5/WTJoOE1USjhmR1p5/WldWc1lXNWpaWEo4/Wlc1OE1IeDhNSHg4/ZkRBPQ)` }} />
+            <div className="absolute rounded-xl inset-0 bg-cover bg-center transition-transform duration-300 ease-in-out scale-100 group-hover:scale-125" style={{ backgroundImage: `url(https://imgs.search.brave.com/_saHVg_J2dWGmOSX0rnBgZZ8oBlznpHJunhDgomJ47Y/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzA4LzA0LzMyLzIy/LzM2MF9GXzgwNDMy/MjI5MV9kQ1dvQ0ZW/T29tTW9zeW1uemdD/SkdnQWR3aGpQOEJK/Qy5qcGc)` }} />
             <div className="absolute inset-0 bg-[#273C43] opacity-60 group-hover:opacity-0" />
             <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-150">Freelancers</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">

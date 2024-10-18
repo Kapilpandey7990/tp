@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import sunish from "../assets/images/about_us/IMG-20241016-WA0006.jpg"
 import nilesh from "../assets/images/about_us/IMG-20241016-WA0007.jpg"
 import jaydeep from "../assets/images/about_us/IMG-20241016-WA0008.jpg"
+import pierc from "../assets/pierc.png"
 
 
 
@@ -23,24 +24,30 @@ export default function AboutPage() {
   };
 
 
-
   const teamMembers = [
     {
       name: "Utkarsh Mishra",
-      role: "CMO ",
-      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/Us.png", // replace with actual image path
+      role: "CMO",
+      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/Us.png", // Actual image path for Utkarsh Mishra
+      linkedin: "https://linkedin.com/in/utkarshmishra", // Replace with actual LinkedIn URL
+      twitter: "https://twitter.com/utkarshmishra", // Replace with actual Twitter URL
     },
     {
       name: "Ankit Sharma",
       role: "CEO",
-      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/As.png", // replace with actual image path
+      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/As.png", // Actual image path for Ankit Sharma
+      linkedin: "https://linkedin.com/in/ankitsharma", // Replace with actual LinkedIn URL
+      twitter: "https://twitter.com/ankitsharma", // Replace with actual Twitter URL
     },
     {
       name: "Jainish Gupta",
-      role: "CTO ",
-      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/Js.png", // replace with actual image path
+      role: "CTO",
+      imgSrc: "https://trustopay.vercel.app/assets/images/our%20team/Js.png", // Actual image path for Jainish Gupta
+      linkedin: "https://linkedin.com/in/jainishgupta", // Replace with actual LinkedIn URL
+      twitter: "https://twitter.com/jainishgupta", // Replace with actual Twitter URL
     },
   ];
+  
 
   return (
     <div className='h-90'>
@@ -57,10 +64,10 @@ export default function AboutPage() {
 
       </div>
 
-      <div className='h-auto mb-24  px-8 md:px-48 space-y-8 flex flex-col justify-center items-center'>
+      <div className='h-auto mb-24    space-y-8 flex flex-col justify-center items-center'>
         {/* Heading Section */}
-        <h2 className='text-3xl font-custom text-center'>Our Gallery </h2>
-        <p className='text-center text-gray-600'>
+        <h2 className='text-3xl font-custom text-center '>Our Gallery </h2>
+        <p className='text-center text-gray-600 md:px-48 px-8'>
           Founded in the year 2024, Trustopay is a full-stack technology platform that has launched its operations in the year 2015. We are building an ecosystem of products and services to solve business problems around payment acceptance, payouts, and financial operations. The team at Easebuzz focuses on creating workflows that enable businesses to process digital payments and manage end-to-end financial operations through plug-and-play APIs.
         </p>
         {/* <img 
@@ -192,17 +199,21 @@ export default function AboutPage() {
 
     <div className="flex flex-col w-full md:w-1/2 justify-between mt-8 md:mt-0 md:pr-24">
       <div className="flex justify-center md:justify-between space-x-6 mb-6">
-        <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center">
+        <div className="w-28 h-24  border-gray-300 flex items-center justify-center">
           {/* Investor 1 Image */}
           <img src="https://miro.medium.com/v2/1*hRFl1Fa6uGppqxf3BmGEoA.png" alt="Investor 1" className="w-auto h-auto object-cover rounded-full" />
         </div>
-        <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center">
+        <div className=" w-28 h-24 border-gray-300 flex items-center justify-center">
           {/* Investor 2 Image */}
           <img src="https://static.wixstatic.com/media/8436e2_657c4b658c6949338b5139848e4ca8b9~mv2.png/v1/fill/w_126,h_61,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8436e2_657c4b658c6949338b5139848e4ca8b9~mv2.png" alt="Investor 2" className="w-auto h-auto object-cover rounded-full" />
         </div>
-        <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center">
+        <div className=" w-28 h-24  border-gray-300 flex items-center justify-center">
           {/* Investor 3 Image */}
           <img src="https://apideltech.com/wp-content/uploads/2023/06/logo_new.png" alt="Investor 3" className="w-auto h-auto object-cover rounded-full" />
+        </div>
+        <div className=" w-28 h-24  border-gray-300 flex items-center justify-center">
+          {/* Investor 3 Image */}
+          <img src={pierc} alt="Investor 3" className="w-auto h-auto object-cover rounded-full" />
         </div>
       </div>
 
@@ -218,14 +229,14 @@ export default function AboutPage() {
         <div className="flex items-center flex-col">
           <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
             {/* Investor 5 Image */}
-            <img src={nilesh} alt="Investor 5" className="w-full h-full object-cover rounded-full" />
+            <img src={jaydeep} alt="Investor 5" className="w-full h-full object-cover rounded-full" />
           </div>
           <p className="font-medium text-gray-800">Nilesh Gupta</p>
         </div>
         <div className="flex items-center flex-col">
           <div className="rounded-full w-24 h-24 border-2 border-gray-300 flex items-center justify-center mr-4">
             {/* Investor 5 Image */}
-            <img src={jaydeep} alt="Investor 5" className="w-full h-full object-cover rounded-full" />
+            <img src={nilesh} alt="Investor 5" className="w-full h-full object-cover rounded-full" />
           </div>
           <p className="font-medium text-gray-800">Jaydeep Karamchandani</p>
         </div>
@@ -234,33 +245,47 @@ export default function AboutPage() {
   </div>
 </div>
 
-      <div className="w-full h-auto px-12 py-12 bg-white text-center">
-        <h2 className="text-3xl font-bold mb-12">Meet our leadership team</h2>
-        <div className="flex justify-center gap-8">
-          {teamMembers.map((member, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center hover:cursor-pointer rounded-lg shadow-lg w-72 bg-gray-50 transform transition-transform duration-300 hover:scale-105"
-            >
-              <img
-                className="w-full h-72 object-cover rounded-t-lg"
-                src={member.imgSrc}
-                alt={`${member.name}`}
-              />
-              <div className="bg-[#041440] text-white w-full p-4 flex justify-between items-center">
-                <div className="flex flex-col items-start">
-                  <h3 className="text-lg font-semibold">{member.name}</h3>
-                  <p className="text-sm">{member.role}</p>
-                </div>
-                <div className="flex space-x-4">
-                  <FaLinkedin className="text-xl hover:text-gray-300 hover:cursor-pointer transition duration-200" />
-                  <FaTwitter className="text-xl hover:text-gray-300 hover:cursor-pointer transition duration-200" />
-                </div>
+<div className="w-full h-auto px-12 py-12 bg-white text-center">
+      <h2 className="text-3xl font-bold mb-12">Meet our leadership team</h2>
+      <div className="flex justify-center gap-8 flex-wrap">
+        {teamMembers.map((member, index) => (
+          <div
+            key={index}
+            className="flex flex-col items-center hover:cursor-pointer rounded-lg shadow-lg w-72 bg-gray-50 transform transition-transform duration-300 hover:scale-105"
+          >
+            <img
+              className="w-full h-72 object-cover rounded-t-lg"
+              src={member.imgSrc}
+              alt={`${member.name}`}
+            />
+            <div className="bg-[#041440] text-white w-full p-4 flex justify-between items-center">
+              <div className="flex flex-col items-start">
+                <h3 className="text-lg font-semibold">{member.name}</h3>
+                <p className="text-sm">{member.role}</p>
+              </div>
+              <div className="flex space-x-4">
+                <a
+                  href={member.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-300 transition duration-200"
+                >
+                  <FaLinkedin className="text-xl" />
+                </a>
+                <a
+                  href={member.twitter}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-gray-300 transition duration-200"
+                >
+                  <FaTwitter className="text-xl" />
+                </a>
               </div>
             </div>
-          ))}
-        </div>
+          </div>
+        ))}
       </div>
+    </div>
 
 
  
