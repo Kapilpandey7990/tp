@@ -38,12 +38,12 @@ export default function Escrow() {
   return (
     <>
       <PageHeader />
-      <div className=" h-full max-w-full bg-gradient-to-b from-[#703893] to-[#3f4195] flex flex-col md:flex-row pl-16 justify-center items-center">
+      <div className=" h-screen  bg-gradient-to-b from-[#703893] to-[#3f4195] flex flex-col md:flex-row pl-16 justify-center items-center">
         {/* Left Side Content */}
         <div className="flex-1 items-center justify-center font-custom w-full md:w-1/2 space-y-0  -translate-y-16 md:ml-36 ">
           <div className="mb-4 animate-fade-up animate-once mt-32">
             <h1 className="text-3xl md:text-5xl font-bold text-white mb-2">
-              Protect Your Payments with Digital Escrow
+              Protect Your Payments with Trustopay
             </h1>
           </div>
           {/* <p className=" animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-3xl font-bold">
@@ -102,7 +102,7 @@ export default function Escrow() {
               type="button"
               className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border-2 hover:text-white   border-[#703893] hover:bg-gradient-to-l from-[#703893] to-[#3f4195] shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
             >
-              Enquiry about Escrewy
+              Enquiry about Escrow
             </button>
             <button
               type="button"
@@ -144,10 +144,7 @@ export default function Escrow() {
           </div>
         </div>
       </div>
-      <section className="py-12 px-4 bg-white">
-        <h2 className="text-center text-2xl font-bold text-green-600 mb-8">
-          Escrow for every business use case
-        </h2>
+      <section className="py-12 px-40 bg-white">
         {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <BusinessUseCaseCard
             icon="🛍️"
@@ -299,7 +296,7 @@ export default function Escrow() {
       <Section2 />
 
       <section className="bg-blue-50 py-10">
-  <div className="max-w-7xl mx-auto px-8"> {/* Change px-6 to px-8 for more padding */}
+  <div className="max-w-7xl mx-auto px-48"> {/* Change px-6 to px-8 for more padding */}
     {/* Heading and Benefits Section */}
     <div className="flex flex-col md:flex-row items-start justify-between mb-10">
       {/* Heading */}
@@ -409,7 +406,7 @@ export default function Escrow() {
   </div>
 </section>
 
-      <section className="py-12 bg-gray-100">
+      <section className="py-12 px-40 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-4">
             What Can You Buy & Sell Using Tazapay's Escrow?
@@ -420,8 +417,8 @@ export default function Escrow() {
           </p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
   {/* Column 1 */}
-  <div className="flex flex-col items-center">
-    <h2 className="text-xl font-semibold mb-4">Physical Goods</h2>
+  <div className="flex flex-col items-justify">
+    <h2 className="text-xl text-start font-semibold mb-4">Physical Goods</h2>
     <ul className="space-y-4">
       <li className="flex items-center">
         <span className="text-green-500 mr-2">✔️</span> Physical Goods
@@ -442,7 +439,7 @@ export default function Escrow() {
   </div>
 
   {/* Column 2 */}
-  <div className="flex flex-col items-center">
+  <div className="flex flex-col items-justify">
     <h2 className="text-xl font-semibold mb-4">Digital Goods</h2>
     <ul className="space-y-4">
       <li className="flex items-center">
@@ -464,7 +461,7 @@ export default function Escrow() {
   </div>
 
   {/* Column 3 */}
-  <div className="flex flex-col items-center">
+  <div className="flex flex-col items-justify">
     <h2 className="text-xl font-semibold mb-4">Additional Items</h2>
     <ul className="space-y-4">
       <li className="flex items-center">
@@ -488,10 +485,7 @@ export default function Escrow() {
 
         </div>
       </section>
-      <section className="py-12 px-4 bg-white">
-        <h2 className="text-center text-xl font-bold mb-8">
-          How are Your Funds Protected with our Escrow Services?
-        </h2>
+      <section className="py-12 px-40 bg-white">
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <FundProtectionCard
             bgColorClass="bg-light-green"
@@ -679,7 +673,7 @@ export default function Escrow() {
             type="button"
             className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border-2 hover:text-white   border-[#703893] hover:bg-gradient-to-l from-[#703893] to-[#3f4195] shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
           >
-            Enquiry about Escrewy
+            Enquiry about Escrow
           </button>
           <button
             type="button"

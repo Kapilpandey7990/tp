@@ -15,33 +15,44 @@ import AnimatedCities from "../../utils/AnimatedCities";
 
 export default function Section1() {
   return (
-    <div className='h-auto max-w-full overflow-hidden'>
-      <div className='flex flex-col md:flex-row items-start px-4  md:px-0  mt-16 md:mt-24'>
+    <div className="h-auto max-w-full overflow-hidden">
+      <div className="flex flex-col md:flex-row items-start px-4  md:px-0  mt-16 md:mt-24">
         {/* Left Side Content */}
-        <div className="flex-1 font-custom w-full md:w-1/2 space-y-4 md:space-y-6  justify-center md:ml-12 md:mr-24  transform -translate-y-8 md:-translate-y-8">
-          <div className='mb-2 md:mb-4 animate-fade-up animate-once max-w-full'>
+        <div className="flex-1 font-custom w-full md:w-1/2 space-y-4 md:space-y-6  justify-center md:ml-36 md:mr-2  transform -translate-y-8 md:-translate-y-8">
+          <div className="mb-2 md:mb-4 animate-fade-up animate-once max-w-full">
             <h1 className="text-4xl md:text-5xl font-bold text-black mb-2">
-              Your Trusted Payment   
+              Your Trusted Payment
             </h1>
-            <h1 className='text-4xl md:text-5xl font-bold text-black'>Solution for</h1>
-            <h1 className='mt-2 md:mt-4  max-h-24 bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text md:text-5xl flex items-center text-[#0A86B7] break-words'>
-              <AnimatedCities />
+            <h1 className="text-4xl md:text-5xl font-bold text-black">
+              Solution for
+            </h1>
+            <h1 className="mt-2 md:mt-4  max-h-24 bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text md:text-5xl flex items-center text-[#0A86B7] break-words">
+              {/* <AnimatedCities /> */}
             </h1>
           </div>
           <p className="  animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-2xl md:text-3xl font-bold">
-          Secure Transactions, Built on Trust
+            Secure Transactions, Built on Trust
           </p>
-          <div className='space-y-6   animate-fade-up animate-once animate-delay-[500ms]'>
-          <p className='font-normal font-sans text-xl text-black'>Empower your business with Trustopay,<br/> the secure peer-to-peer payment platform.</p>
-          <p className='font-normal font-sans text-xl text-black '>Ensure safe and transparent payments, no matter the  <br />transaction </p>
+          <div className="space-y-6   animate-fade-up animate-once animate-delay-[500ms]">
+            <p className="font-normal font-sans text-xl text-black">
+              Empower your business with Trustopay,
+              <br /> the secure peer-to-peer payment platform.
+            </p>
+            <p className="font-normal font-sans text-xl text-black ">
+              Ensure safe and transparent payments, no matter the <br />
+              transaction{" "}
+            </p>
           </div>
-          <div className='flex justify-start items-center'>
+          <div className="flex justify-start items-center">
             <button
-            onClick={()=>window.location="https://play.google.com/store/apps/details?id=com.trustopay.android&hl=en"}
+              onClick={() =>
+                (window.location =
+                  "https://play.google.com/store/apps/details?id=com.trustopay.android&hl=en")
+              }
               type="button"
               className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-3xl border bg-gradient-to-r from-[#703893] to-[#3f4195]  border-gray-200  text-white shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
             >
-              Download our App 
+              Download our App
               <svg
                 className="shrink-0 size-4"
                 xmlns="http://www.w3.org/2000/svg"
@@ -59,25 +70,24 @@ export default function Section1() {
               </svg>
             </button>
           </div>
-          <div className='animate-fade-up animate-once animate-delay-[1000ms]  font-sans flex flex-col items-start md:flex-row gap-4 w-full md:items-center text-gray-600 '>
-          <div className='flex gap-2 items-center mt-4 '>
-            <img 
-              src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e2c634feddec420d2fd650_CB%20INSJGHS.svg" 
-              alt="CB Insights Logo" 
-              className='w-40 h-auto'
-            />
-            <p className='text-lg font-normal'>TOP 100 Fintechs</p>
-          </div>  
-          <div className='flex gap-2 items-center mt-4 '>
-            <img 
-              src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/659d468bdaad532c6fe82609_g2.svg" 
-              alt="G2 Logo" 
-              className='w-34 h-auto' 
-            />
-            <p className='text-md font-medium'>4.3 Rating</p>
+          <div className="animate-fade-up animate-once animate-delay-[1000ms]  font-sans flex flex-col items-start md:flex-row gap-4 w-full md:items-center text-gray-600 ">
+            <div className="flex gap-2 items-center mt-4 ">
+              <img
+                src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e2c634feddec420d2fd650_CB%20INSJGHS.svg"
+                alt="CB Insights Logo"
+                className="w-40 h-auto"
+              />
+              <p className="text-lg font-normal">TOP 100 Fintechs</p>
+            </div>
+            <div className="flex gap-2 items-center mt-4 ">
+              <img
+                src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/659d468bdaad532c6fe82609_g2.svg"
+                alt="G2 Logo"
+                className="w-34 h-auto"
+              />
+              <p className="text-md font-medium">4.3 Rating</p>
+            </div>
           </div>
-        </div>
-
         </div>
 
         {/* Hide mobile image (tpHome) on mobile devices */}
@@ -101,30 +111,60 @@ export default function Section1() {
           </div>
         </div> */}
         <div className="hero-media">
-  <div className="video-wrapper">
-    <div className="circle-background"></div>
-    <video id="hero-video" autoPlay muted loop>
+          <div className="video-wrapper">
+            <div className="circle-background"></div>
+            {/* <video id="hero-video" autoPlay muted loop>
       <source src={video} type="video/mp4" />
       Your browser does not support the video tag.
-    </video>
-  </div>
-</div>
-
+    </video> */}
+            <img id="hero-video" src={HDashboard} alt="" />
+          </div>
+        </div>
       </div>
 
       {/* Slider for Trusted By Companies */}
-      <div className='h-40 p-2 bg-[#ffff]  -mt-20 md:mt-16 mb-8'>
-        <p className='text-md font-semibold font-sans text-start ml-2 md:ml-10  uppercase text-gray-600'>Trusted By</p>
-        <div className='h-12 flex justify-center items-center mt-12'>
+      <div className="h-40 p-2 bg-[#ffff]  -mt-20 md:mt-16 mb-8">
+        <p className="text-md font-semibold font-sans text-start ml-2 md:ml-10  uppercase text-gray-600">
+          Trusted By
+        </p>
+        <div className="h-12 flex justify-center items-center mt-12">
           <Marquee>
-            <div className='flex gap-4 content-center '>
-              <img  src={imgone} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
-              <img  src={imgtwo} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
-              <img  src={imgthree} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
-              <img  src={imgfour} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
-              <img  src={imgfive} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
-              <img  src={imgsix} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
-              <img  src={imgseven} className='filter grayscale md:h-14 h-12 mx-3'  alt="" />
+            <div className="flex gap-4 content-center ">
+              <img
+                src={imgone}
+                className="filter grayscale md:h-14 h-12 mx-3"
+                alt=""
+              />
+              <img
+                src={imgtwo}
+                className="filter grayscale md:h-14 h-12 mx-3"
+                alt=""
+              />
+              <img
+                src={imgthree}
+                className="filter grayscale md:h-14 h-12 mx-3"
+                alt=""
+              />
+              <img
+                src={imgfour}
+                className="filter grayscale md:h-14 h-12 mx-3"
+                alt=""
+              />
+              <img
+                src={imgfive}
+                className="filter grayscale md:h-14 h-12 mx-3"
+                alt=""
+              />
+              <img
+                src={imgsix}
+                className="filter grayscale md:h-14 h-12 mx-3"
+                alt=""
+              />
+              <img
+                src={imgseven}
+                className="filter grayscale md:h-14 h-12 mx-3"
+                alt=""
+              />
               {/* <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4e26ee014753902fd96_teachmint.svg" className='filter grayscale md:h-14 h-12 ' alt="" />
               <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba4779392e68e4f2a3957_thrillophilia-p-500.png" className='filter grayscale md:h-14 h-12'  alt="" />
               <img src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/660ba477ebace4f078c7d42b_82E.svg" className='filter grayscale md:h-14 h-12'  alt="" />

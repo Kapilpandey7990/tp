@@ -63,7 +63,7 @@ export default function Section2() {
           </div>
 
           {/* Content section with flexbox */}
-          <div ref={contentRef} className={`mx-2 flex flex-col md:flex-row justify-center gap-4 md:mt-4  mt-8 mb-8 md:mb-0   md:p-8 ${contentInView ? 'animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}>
+          <div ref={contentRef} className={`mx-2 px-48 flex flex-col md:flex-row justify-center gap-4 md:mt-4  mt-8 mb-8 md:mb-4    ${contentInView ? 'animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}>
             <div className='gap-4 w-full md:w-1/2 flex flex-col  items-center '>
               {/* 1 */}
               <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">

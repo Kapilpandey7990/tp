@@ -11,11 +11,11 @@ export default function Section5() {
   const navigate = useNavigate();
 
   return (
-    <div className=' md:h-[1400px]  max-w-full overflow-hidden'>
+    <div className=' md:h-[1300px]  max-w-full overflow-hidden'>
       <div className=" h-[1930px] md:h-[800px]">
-        <div className=' h-[360px] md:h-[300px] pt-8 md:pt-0 text-white bg-gradient-to-r from-[#703893] to-[#3f4195] flex flex-col justify-start md:justify-center items-center space-y-6'>
-          <h2 className='font-bold text-4xl ml-8'>Efficiency in Every Transaction</h2>
-          <p className='flex font-normal w-3/4 text-xl text-center '>
+        <div className=' h-[360px] md:h-[300px] pt-8 md:pt-0 text-white bg-[#F2F2F2] flex flex-col justify-start md:justify-center items-center space-y-6'>
+          <h2 className='font-bold text-black text-4xl ml-8'>Efficiency in Every Transaction</h2>
+          <p className='flex text-black font-normal w-3/4 text-xl text-center '>
             Trustopay offers comprehensive protection for your transactions, ensuring secure payments, fraud prevention, and seamless compliance.
           </p>
         </div>

@@ -135,7 +135,7 @@
     max-height: 498px;
     z-index: 2;
     border-radius: 30px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
   }
   
   @media (max-width: 1068px) {

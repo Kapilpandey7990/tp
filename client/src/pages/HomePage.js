@@ -143,16 +143,16 @@ export default function HomePage() {
         </div>
       </div> */}
 
-<section className="bg-[#6b3893] py-12 px-4 md:px-12">
+<section className="bg-[#6b3893] py-12 px-4 md:px-12  animate-fade-up animate-once animate-delay-[500ms]" >
       {/* Title */}
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-10">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-white mb-10  animate-fade-up animate-once animate-delay-[500ms]">
         How Does Trustopay Work?
       </h2>
 
       {/* Steps Grid */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto  animate-fade-up animate-once animate-delay-[500ms]">
         {steps.map((step) => (
-          <div key={step.number} className="relative bg-white p-6 rounded-xl shadow-lg text-center">
+          <div key={step.number} className="relative bg-white p-6 rounded-xl shadow-lg text-center ">
             {/* Number on top-left corner */}
             <div className="absolute top-4 left-4 text-xl font-bold text-gray-500">
               {step.number}

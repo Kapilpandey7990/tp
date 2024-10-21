@@ -7,6 +7,11 @@ import ps2 from "../../assets/images/shape/2.svg";
 import ps3 from "../../assets/images/shape/3.svg";
 import ps4 from "../../assets/images/shape/4.svg";
 import ps5 from "../../assets/images/shape/5.svg";
+import find from "../../assets/images/about_us/find.png";
+import iteration from "../../assets/images/about_us/iteration.png";
+import loan from "../../assets/images/about_us/loan.png";
+import protection from "../../assets/images/about_us/protection.png";
+import stopwatch from "../../assets/images/about_us/stopwatch.png";
 
 export default function Section6() {
   const [activeSection, setActiveSection] = useState('first');
@@ -32,34 +37,34 @@ export default function Section6() {
   });
   const benefits = [
     {
-      title: "Reach Customers Everywhere",
-      description: "Share payment links through WhatsApp, SMS, email, chat, or any medium, reaching customers wherever they are.",
+      title: "Secure Escrow for Every Transaction",
+      description: "Trustopay holds payments securely in escrow, ensuring funds are only released when both parties are satisfied, reducing the risk of fraud and non-payment.",
       color: "purple",
-      logo: ps1 // Placeholder logo
+      logo: protection // Placeholder logo
     },
     {
-      title: "Optimise Sales by 2X",
-      description: "Customise your payment links by setting up your brand logo, send automatic payment reminders, set expiry dates to limit payments, or cancel links if your plans change.",
+      title: "Fast and Easy Setup",
+      description: "Setting up an escrow account with Trustopay is quick and simple. The app makes it easy to create agreements, track milestones, and release payments in just minutes.",
       color: "orange",
-      logo: ps2 // Placeholder logo
+      logo: stopwatch // Placeholder logo
     },
     {
-      title: "Leverage Social Media to Boost Your Brand",
-      description: "Utilise platforms like Facebook, Instagram, and WhatsApp to boost your D2C brand's visibility. Share payment links directly through these channels, ensuring a convenient and rapid checkout process for your customers.",
+      title: "Transparent and Real-Time Tracking",
+      description: "Trustopay provides real-time tracking of your funds, keeping you informed at every step of the transaction process, ensuring complete transparency.",
       color: "red",
-      logo: ps3 // Placeholder logo
+      logo: find // Placeholder logo
     },
     {
-      title: "Offer Diverse Payment Methods",
-      description: "Offer convenience with diverse payment options including UPI, credit/debit cards, and net banking options, with a secure checkout experience.",
+      title: "AI-Powered Dispute Resolution",
+      description: "Trustopay uses AI-powered tools to resolve disputes quickly with a 3-step, 7-day process, ensuring issues are handled fairly and efficiently.",
       color: "green",
-      logo: ps4 // Placeholder logo
+      logo: iteration // Placeholder logo
     },
     {
-      title: "Experience Real Time Tracking",
-      description: "Stay updated with your transactions, monitor daily sales, and access detailed settlement reports for a clear view of funds in your account.",
+      title: "Affordable with No Hidden Fees",
+      description: "Trustopay offers an affordable solution with clear pricing and no hidden fees, delivering premium services without unexpected costs.",
       color: "blue",
-      logo: ps5 // Placeholder logo
+      logo: find // Placeholder logo
     }
   ];
   
@@ -236,7 +241,7 @@ export default function Section6() {
         </div>
 
         {/* Right Side - Points */}
-        <div className="md:w-1/2 px-6">
+        <div className="md:w-1/2 pl-12 pr-24">
           {/* Points List */}
           <div className="overflow-y-auto max-h-[calc(100vh-2.5rem)]">
             {benefits.map((benefit, index) => (
@@ -244,7 +249,7 @@ export default function Section6() {
                 {/* Point Content */}
                 <div className="flex items-start">
                   <div
-                    className={`flex items-center justify-center w-12 h-12 rounded-full  text-white mr-4`}
+                    className={`flex items-center justify-center w-24 h-12 rounded-full  text-white mr-4`}
                   >
                     <img
                       src={benefit.logo}

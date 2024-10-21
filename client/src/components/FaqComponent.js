@@ -33,18 +33,6 @@ const FaqComponent = () => {
       {
         title: "What are the fees for using Trustopay?",
         content: "Trustopay charges a small service fee for managing the escrow process. The exact fee depends on the type and value of the transaction. The fee will be clearly displayed before the transaction begins."
-      },
-      {
-        title: "How do I get started with Trustopay?",
-        content: "Getting started is simple! Just sign up for an account, create a transaction by entering the details, and invite the other party to join. Once both parties agree to the terms, Trustopay will hold the payment until the transaction is complete."
-      },
-      {
-        title: "What industries can benefit from using Trustopay?",
-        content: "Trustopay is beneficial for industries such as digital marketing, freelance work, e-commerce, software development, real estate, and import-export. We are also planning to expand into more industries where secure payments are essential."
-      },
-      {
-        title: "Is my payment secure with Trustopay?",
-        content: "Yes, your payment is fully secure with Trustopay. We use advanced encryption and security protocols to ensure that all transactions are safe from fraud, theft, and cyberattacks."
       }
     ]
   };

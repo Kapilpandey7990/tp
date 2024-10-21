@@ -35,7 +35,7 @@
     height: auto;
     max-height: 498px;
     border-radius: 30px;
-    border: 5px solid black;
+    /* border: 5px solid black; */
     z-index: 2;
   }
   

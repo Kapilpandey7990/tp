@@ -101,7 +101,7 @@ function Header() {
           <div className="hidden md:flex space-x-8 items-center font-semibold">
             
             <a className="text-lg text-gray-700 hover:text-gray-500" href="/"> Home</a>
-            <div
+            {/* <div
               onMouseEnter={() => handleMenuDropDownClick('products')}
               className="relative">
               <button className="flex items-center text-lg text-gray-700 hover:text-gray-500">
@@ -150,7 +150,7 @@ function Header() {
                  </ul>
                </div>
               )}
-            </div>
+            </div> */}
             {/* <div onMouseEnter={() => handleMenuDropDownClick('usecases')}
               className="relative">
               <button
@@ -194,6 +194,7 @@ function Header() {
                 </div>
               )}
             </div> */}
+            <a className="text-lg text-gray-700 hover:text-gray-500" href="/product/escrow">Product</a>
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/about">About</Link>
             <Link className="text-lg text-gray-700 hover:text-gray-500" to="/contact">Contact</Link>
             {/* <Link className="text-lg text-gray-700 hover:text-gray-500" to="/case-study">Case Studies</Link> */}
