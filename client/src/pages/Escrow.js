@@ -5,6 +5,10 @@ import Footer from "../components/shared/Footer"
 import { BiQuestionMark } from 'react-icons/bi'
 import Section2 from '../components/Homepage/Section2'
 import phpe from '../assets/images/partners/phpe.png'
+import icon1 from '../assets/images/partners/portfolio.png'
+import icon2 from '../assets/images/partners/ecommerce.png'
+import icon3 from '../assets/images/partners/brokerage.png'
+import icon4 from '../assets/images/partners/contract-agreement.png'
 
 
 
@@ -80,16 +84,16 @@ export default function Escrow() {
                 </p>
               </div>
             </div>
-            <div className="flex  items-center gap-2 ">
-              <div>
+            <div className="flex items-center gap-2 ">
+              <div className='mb-5'>
                 <img
                   src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65dca05d564ae2c370d071cb_tazapay-protection.svg"
                   alt=""
                 />
               </div>
-              <div>
+              <div className='mb-5'>
                 <p className='text-white'>Trustopay</p>
-                <p className='text-white'>Trustopay Shield</p>
+                {/* <p className='text-white'>Trustopay Shield</p> */}
               </div>
             </div>
           </div>
@@ -144,7 +148,7 @@ export default function Escrow() {
         <h2 className="text-center text-2xl font-bold text-green-600 mb-8">
           Escrow for every business use case
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
           <BusinessUseCaseCard
             icon="🛍️"
             title="Businesses without checkout function on the websites"
@@ -165,7 +169,66 @@ export default function Escrow() {
             title="Brokers facilitating transactions amongst two other parties"
             description="For brokers facilitating transactions amongst two other parties."
           />
+        </div> */}
+        <div className="py-12 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+        <h2 className="text-3xl font-extrabold text-gray-900">
+          Escrow for every business use case
+        </h2>
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+          
+          {/* First Item */}
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-purple-200 rounded-full mb-4">
+              <span className="block w-12 h-12">
+                <img src={icon1} alt="Business Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <p className="text-center text-lg font-medium text-gray-700">
+              Businesses without checkout function on the websites
+            </p>
+          </div>
+
+          {/* Second Item */}
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-purple-200 rounded-full mb-4">
+              <span className="block w-12 h-12">
+                <img src={icon2} alt="B2B Transactions Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <p className="text-center text-lg font-medium text-gray-700">
+              Negotiated B2B transactions
+            </p>
+          </div>
+
+          {/* Third Item */}
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-purple-200 rounded-full mb-4">
+              <span className="block w-12 h-12">
+                <img src={icon3} alt="eCommerce Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <p className="text-center text-lg font-medium text-gray-700">
+              eCommerce platforms accepting payments on behalf of their sellers
+            </p>
+          </div>
+
+          {/* Fourth Item */}
+          <div className="flex flex-col items-center">
+            <div className="p-4 bg-purple-200 rounded-full mb-4">
+              <span className="block w-12 h-12">
+                <img src={icon4} alt="Brokers Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <p className="text-center text-lg font-medium text-gray-700">
+              Brokers facilitating transactions amongst two other parties
+            </p>
+          </div>
+
         </div>
+      </div>
+    </div>
+
       </section>
 
       
@@ -429,7 +492,7 @@ export default function Escrow() {
         <h2 className="text-center text-xl font-bold mb-8">
           How are Your Funds Protected with our Escrow Services?
         </h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <FundProtectionCard
             bgColorClass="bg-light-green"
             icon="🔒"
@@ -448,7 +511,63 @@ export default function Escrow() {
             title="Segregated customer funds"
             description="All customer funds at all times are segregated from our own corporate funds which we use to run our own business."
           />
+        </div> */}
+        <div className="py-12 bg-white">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-black mb-10">
+          How are Your Funds Protected with Our Escrow Services?
+        </h2>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+
+          {/* First Item */}
+          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
+            <div className="mb-4">
+              <span className="block w-12 h-12">
+                <img src={icon1} alt="Lock Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
+              Regulated payments partner
+            </h3>
+            <p className="text-center text-gray-600">
+              Your money is securely held by an institution licensed and regulated by the Monetary Authority of Singapore (MAS).
+            </p>
+          </div>
+
+          {/* Second Item */}
+          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
+            <div className="mb-4">
+              <span className="block w-12 h-12">
+                <img src={icon2} alt="Shield Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
+              Safeguarded with authorised banks
+            </h3>
+            <p className="text-center text-gray-600">
+              In accordance with MAS regulatory requirements, all customer funds are safeguarded with an authorised bank in Singapore.
+            </p>
+          </div>
+
+          {/* Third Item */}
+          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
+            <div className="mb-4">
+              <span className="block w-12 h-12">
+                <img src={icon3} alt="Money Bag Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
+              Segregated customer funds
+            </h3>
+            <p className="text-center text-gray-600">
+              All customer funds at all times are segregated from our own corporate funds which we use to run our own business.
+            </p>
+          </div>
+
         </div>
+      </div>
+    </div>
       </section>
 
       <div className="min-h-screen bg-white max-w-full overflow-hidden mx-0 md:mx-36 p-8  space-y-24">
