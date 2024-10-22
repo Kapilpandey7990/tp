@@ -46,7 +46,7 @@ export default function Section3() {
           ref={imageRef}
           className={`md:bg-gray-100  md:w-4/3 md:h-4/3 w-4/3 md:p-0  p-0 row-span-1 col-span-2  md:row-span-2  md:col-span-1  rounded-lg shadow-none md:shadow-md overflow-hidden ${imageInView ? 'opacity-100 animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}
         >
-          <img className='rounded-xl object-cover h-full w-full ' src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65e55700997d6605ae8ce398_img_Empowering%20Your%20Global%20Ambitions-p-1080.webp" alt="Empowering Your Global Ambitions" />
+          <img className='rounded-xl object-cover h-full w-full ' src="https://imgs.search.brave.com/qyojHAWSUu-n5ZyXgDGLr68HqwiJgaJNxA9II08kHzY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvODc0/Mzc5NDg4L3Bob3Rv/L3NlY3VyZS1wYXlt/ZW50LWNvbmNlcHQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PWI3RVVsWjk1Qktz/dVlxQ2d0WmJwc2pS/ajVpakhhWE4xcjNK/SkU0ZmhLenc9" alt="Empowering Your Global Ambitions" />
         </div>
 
         {/* <!-- Section 3: Statistics/Marketing Info 1 --> */}

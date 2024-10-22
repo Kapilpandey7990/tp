@@ -56,8 +56,8 @@ const FaqComponent = () => {
 
   return (
     <div className="py-12 px-4 sm:px-6 lg:px-8 max-w-full overflow-hidden">
-      <div className="flex flex-col lg:flex-row items-start lg:space-x-12 md:mx-36 ">
-        <div className="lg:w-1/3 mb-8 lg:mb-0 flex flex-col-reverse md:flex-col gap-y-8 md:gap-y-0">
+      <div className="flex flex-col lg:flex-col items-center lg:space-x-12 md:mx-36 ">
+        <div className=" mb-8 lg:mb-0 flex flex-col-reverse md:flex-col gap-y-8 md:gap-y-0">
           <h2 className="text-[#000000] flex text-3xl font-bold mb-4 ">Frequently Asked Questions</h2>
           <div className='flex justify-center lg:justify-start'>
             {/* <button

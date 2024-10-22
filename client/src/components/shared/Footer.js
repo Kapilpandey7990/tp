@@ -2,6 +2,8 @@ import React from 'react';
 import linkedinImg from "../../assets/images/linkedin.svg"; // Assuming you have this image
 import facebookImg from "../../assets/images/twitter.svg"; // Assuming you have this image
 import logo from "../../assets/images/trustopay.svg"; // Your logo
+import google from "../../assets/images/googlePlay.png"
+import app from "../../assets/images/appstore.png"
 
 function Footer() {
   return (
@@ -13,7 +15,7 @@ function Footer() {
           <a href="/#" className="flex items-center justify-center md:justify-start mb-1.5">
             <img src={logo} className="h-15" alt="Trustopay Logo" />
           </a>
-          <p className="text-gray-800 text-start w-50 md:text-left">
+          <p className="text-gray-800 text-start w-55 md:text-left">
           Our vision is to revolutionize the way financial transactions are conducted, fostering trust and security in every transaction.
           </p>
         </div>
@@ -36,7 +38,7 @@ function Footer() {
             <li><a href="/product/escrow" className="hover:underline">Digital escrow</a></li>
           </ul>
         </div>
-        <div>
+        {/* <div>
           <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Use Cases</h2>
           <ul className="text-gray-500 font-medium">
             <li className="mb-2"><a href="/usecases" className="hover:underline">Fintech</a></li>
@@ -46,13 +48,20 @@ function Footer() {
             <li><a href="/usecases" className="hover:underline">Freelancers</a></li>
             <li><a href="/usecases" className="hover:underline">Second hand Goods</a></li>
           </ul>
-        </div>
+        </div> */}
         <div>
           <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Support</h2>
           <ul className="text-gray-500 font-medium">
             <li className="mb-2"><a href="/about" className="hover:underline">Contact Us</a></li>
             <li className="mb-2"><a href="/termsandcondition" className="hover:underline">Terms & Condition</a></li>
             <li className="mb-2"><a href="/legal/privacypolicy" className="hover:underline">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div>
+          <h2 className="mb-4 text-sm font-semibold text-gray-900 uppercase">Download Our App</h2>
+          <ul className="text-gray-500 font-medium">
+            <li className="mb-2 w-40"><a href="https://play.google.com/store/search?q=trustopay&c=apps&hl=en_US" className="hover:underline"><img src={google} alt="" /></a></li>
+            <li className="mb-2 w-40"><a href="https://play.google.com/store/search?q=trustopay&c=apps&hl=en_US" className="hover:underline"><img src={app} alt="" /></a></li>
           </ul>
         </div>
       </div>

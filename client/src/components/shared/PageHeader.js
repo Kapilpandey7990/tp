@@ -101,7 +101,7 @@ function Header() {
     <div className="hidden md:flex space-x-8 items-center font-semibold">
       <a className={`text-lg  ${showHeader ? 'text-black' : 'text-white'} text-gray-700 hover:text-gray-500`} href="/"> Home</a>
 
-      <div
+      {/* <div
         onMouseEnter={() => handleMenuDropDownClick('products')}
         className="relative">
         <button className={`flex items-center text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`}>
@@ -113,7 +113,7 @@ function Header() {
             onMouseEnter={() => handleMenuDropDownClick('products')} 
             className="absolute bg-white shadow-lg rounded-lg mt-2 w-[200px]"
           >
-            <ul className="py-2 text-black"> {/* Change text color to black */}
+            <ul className="py-2 text-black"> 
               <li>
                 <a 
                   href='/product/api' 
@@ -149,7 +149,7 @@ function Header() {
             </ul>
           </div>
         )}
-      </div>
+      </div> */}
       {/* <div onMouseEnter={() => handleMenuDropDownClick('usecases')} className="relative">
         <button className={`flex items-center text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`}>
           Use Cases <svg className="w-2.5 h-2.5 ms-3" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6"><path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="m1 1 4 4 4-4" /></svg>
@@ -195,6 +195,7 @@ function Header() {
           </div>
         )}
       </div> */}
+      <a className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} href='/product/escrow'  to="/about">Product</a>
       <a className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} href='/about'  to="/about">About</a>
       <a className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} href='/contact'>Contact</a>
       {/* <Link className={`text-lg ${showHeader ? 'text-black' : 'text-white'} hover:text-gray-300`} to="/case-study">Case Studies</Link> */}

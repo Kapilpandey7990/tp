@@ -19,28 +19,28 @@ export default function Section1() {
       <div className="flex flex-col md:flex-row items-start px-4  md:px-0  mt-16 md:mt-24">
         {/* Left Side Content */}
         <div className="flex-1 font-custom w-full md:w-1/2 space-y-4 md:space-y-6  justify-center md:ml-36 md:mr-2  transform -translate-y-8 md:-translate-y-8">
-          <div className="mb-2 md:mb-4 animate-fade-up animate-once max-w-full">
-            <h1 className="text-4xl md:text-5xl font-bold text-black mb-2">
-              Your Trusted Payment
+          <div className=" animate-fade-up animate-once max-w-full">
+            <h1 className="text-4xl md:text-4xl font-bold text-black mb-2">
+              Your Trusted Payment Solution for Secure Transactions, Built on Trust
             </h1>
-            <h1 className="text-4xl md:text-5xl font-bold text-black">
+            {/* <h1 className="text-4xl md:text-5xl font-bold text-black">
               Solution for
-            </h1>
-            <h1 className="mt-2 md:mt-4  max-h-24 bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text md:text-5xl flex items-center text-[#0A86B7] break-words">
+            </h1> */}
+            {/* <h1 className="mt-2 md:mt-4  max-h-24 bg-gradient-to-r from-[#703893] to-[#3f4195] text-transparent bg-clip-text md:text-5xl flex items-center text-[#0A86B7] break-words">
+            </h1> */}
               {/* <AnimatedCities /> */}
-            </h1>
           </div>
-          <p className="  animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-2xl md:text-3xl font-bold">
+          {/* <p className="  animate-fade-up animate-once animate-delay-[500ms] text-gray-800 text-2xl md:text-3xl font-bold">
             Secure Transactions, Built on Trust
-          </p>
+          </p> */}
           <div className="space-y-6   animate-fade-up animate-once animate-delay-[500ms]">
-            <p className="font-normal font-sans text-xl text-black">
+            <h2 className="font-semibold  font-sans text-xl text-black">
               Empower your business with Trustopay,
               <br /> the secure peer-to-peer payment platform.
-            </p>
-            <p className="font-normal font-sans text-xl text-black ">
+            </h2>
+            <p className="font-normal font-sans text-base text-black ">
               Ensure safe and transparent payments, no matter the <br />
-              transaction{" "}
+              transaction Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione qui veritatis ducimus saepe earum   {" "}
             </p>
           </div>
           <div className="flex justify-start items-center">

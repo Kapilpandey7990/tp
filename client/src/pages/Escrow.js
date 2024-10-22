@@ -9,6 +9,14 @@ import icon1 from '../assets/images/partners/portfolio.png'
 import icon2 from '../assets/images/partners/ecommerce.png'
 import icon3 from '../assets/images/partners/brokerage.png'
 import icon4 from '../assets/images/partners/contract-agreement.png'
+import FaqComponent from '../components/FaqComponent';
+import how1 from "../assets/images/cardds/agreement.png"
+import how2 from "../assets/images/cardds/milestone.png"
+import how3 from "../assets/images/cardds/end.png"
+import how4 from "../assets/images/cardds/secure-payment.png"
+import how5 from "../assets/images/cardds/trustee verified.png"
+import how6 from "../assets/images/cardds/dispute.png"
+
 
 
 
@@ -64,9 +72,7 @@ export default function Escrow() {
               </div>
               <div>
                 <p className='text-white'>
-                  Trustopay's escrow protects buyers and sellers by holding the
-                  buyer's funds in an escrow account until the seller fulfils
-                  their obligations.
+                Trustopay is a secure escrow payment platform that safeguards funds until transactions are completed.
                 </p>
               </div>
             </div>
@@ -79,20 +85,19 @@ export default function Escrow() {
               </div>
               <div>
                 <p className='text-white'>
-                  Get the flexibility to create an escrow on Tazapay's dashboard
-                  or integrate it with your platform.
+                It offers milestone payments, easy communication, and fast dispute resolution for freelancers and small businesses.
                 </p>
               </div>
             </div>
             <div className="flex items-center gap-2 ">
               <div className='mb-5'>
-                <img
+                {/* <img
                   src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65dca05d564ae2c370d071cb_tazapay-protection.svg"
                   alt=""
-                />
+                /> */}
               </div>
               <div className='mb-5'>
-                <p className='text-white'>Trustopay</p>
+                {/* <p className='text-white'>Trustopay</p> */}
                 {/* <p className='text-white'>Trustopay Shield</p> */}
               </div>
             </div>
@@ -100,7 +105,7 @@ export default function Escrow() {
           <div className="flex justify-start items-center gap-4">
             <button
               type="button"
-              className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl border-2 hover:text-white   border-[#703893] hover:bg-gradient-to-l from-[#703893] to-[#3f4195] shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
+              className="py-3 space-y-8 px-6 inline-flex items-center gap-x-2 text-sm font-medium text-white rounded-xl border-2 hover:text-white   border-[#703893] hover:bg-gradient-to-l from-[#703893] to-[#3f4195] shadow-sm hover:bg-gray-700 focus:outline-none focus:bg-gray-700 disabled:opacity-50 disabled:pointer-events-none"
             >
               Enquiry about Escrow
             </button>
@@ -135,9 +140,9 @@ export default function Escrow() {
         <div className="w-full md:w-1/2  flex justify-end items-center ">
           {/* <div className=' rounded-bl-xl animate-fade-up hidden md:block animate-once w-[500px] h-[600px] bg-gradient-to-b from-[#703893cf] to-[#3f4095b1]'>
           </div> */}
-          <div className=" flex justify-end  ml-12 animate-fade-left">
+          <div className=" flex justify-start  ml-12 animate-fade-right">
             <img
-              className=" md:w-[800px]  h-auto  items-center object-cover rounded-xl"
+              className=" md:w-[800px]  h-auto  items-start object-cover rounded-xl"
               src="https://cdn.prod.website-files.com/6598f4892384e3889d845a2d/65ebf92e7129fa4e65835c95_Escrow-map.006d026.svg"
               alt=""
             />
@@ -168,57 +173,57 @@ export default function Escrow() {
           />
         </div> */}
         <div className="py-12 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center animate-fade-up animate-once">
         <h2 className="text-3xl font-extrabold text-gray-900">
           Escrow for every business use case
         </h2>
-        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 animate-fade-up animate-once">
           
           {/* First Item */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center animate-fade-up animate-once">
             <div className="p-4 bg-purple-200 rounded-full mb-4">
               <span className="block w-12 h-12">
                 <img src={icon1} alt="Business Icon" className="w-full h-full object-contain" />
               </span>
             </div>
             <p className="text-center text-lg font-medium text-gray-700">
-              Businesses without checkout function on the websites
+            Protects funds during online transactions.
             </p>
           </div>
 
           {/* Second Item */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center animate-fade-up animate-once">
             <div className="p-4 bg-purple-200 rounded-full mb-4">
               <span className="block w-12 h-12">
                 <img src={icon2} alt="B2B Transactions Icon" className="w-full h-full object-contain" />
               </span>
             </div>
             <p className="text-center text-lg font-medium text-gray-700">
-              Negotiated B2B transactions
+            Releases funds progressively for transparency.
             </p>
           </div>
 
           {/* Third Item */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center animate-fade-up animate-once">
             <div className="p-4 bg-purple-200 rounded-full mb-4">
               <span className="block w-12 h-12">
                 <img src={icon3} alt="eCommerce Icon" className="w-full h-full object-contain" />
               </span>
             </div>
             <p className="text-center text-lg font-medium text-gray-700">
-              eCommerce platforms accepting payments on behalf of their sellers
+            Facilitates clear interaction between users.
             </p>
           </div>
 
           {/* Fourth Item */}
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center animate-fade-up animate-once">
             <div className="p-4 bg-purple-200 rounded-full mb-4">
               <span className="block w-12 h-12">
                 <img src={icon4} alt="Brokers Icon" className="w-full h-full object-contain" />
               </span>
             </div>
             <p className="text-center text-lg font-medium text-gray-700">
-              Brokers facilitating transactions amongst two other parties
+            Efficiently resolves conflicts and issues.
             </p>
           </div>
 
@@ -302,11 +307,10 @@ export default function Escrow() {
       {/* Heading */}
       <div className="w-full md:w-1/2 text-center md:text-left mb-6 md:mb-0">
         <h1 className="text-3xl font-bold text-gray-800">
-          Tazapay’s Escrow is Easy to Set Up and Fully Digital
+        Trustopay’s Escrow: Seamless and Fully Digital Transactions
         </h1>
         <p className="mt-4 text-gray-600">
-          Sign up and create a transaction agreement in seconds for your
-          shipments, digital assets, projects, and more.
+        Set up your transaction agreement in seconds for various needs, including shipments, digital assets, projects, and more.
         </p>
       </div>
 
@@ -314,21 +318,16 @@ export default function Escrow() {
       <div className="w-full md:w-1/2">
         <ul className="text-left">
           <li className="flex items-center text-gray-700">
-            <span className="text-green-500 mr-2">✔️</span> Low cost, with
-            no hidden fees
+            <span className="text-green-500 mr-2">✔️</span> Enjoy low costs with no hidden fees.
           </li>
           <li className="flex items-center text-gray-700">
-            <span className="text-green-500 mr-2">✔️</span> Full
-            visibility of funds at all times so you know where your money
-            is
+            <span className="text-green-500 mr-2">✔️</span>Always know the status of your funds.
           </li>
           <li className="flex items-center text-gray-700">
-            <span className="text-green-500 mr-2">✔️</span> Payment to
-            escrow is real-time
+            <span className="text-green-500 mr-2">✔️</span>Payments to escrow are processed in real-time.
           </li>
           <li className="flex items-center text-gray-700">
-            <span className="text-green-500 mr-2">✔️</span> A suite of
-            fast and convenient local payment methods
+            <span className="text-green-500 mr-2">✔️</span> Choose from a range of fast and convenient local payment methods. 
           </li>
         </ul>
       </div>
@@ -340,17 +339,17 @@ export default function Escrow() {
         <thead>
           <tr className="bg-gray-100 text-gray-600 text-sm">
             <th className="p-4 border"> </th>
-            <th className="p-4 border">Tazapay</th>
-            <th className="p-4 border">Wire Transfer</th>
+            <th className="p-4 border">Trustopay</th>
             <th className="p-4 border">Letter of Credit</th>
-            <th className="p-4 border">Law Firms</th>
+            <th className="p-4 border">Banks</th>
+            <th className="p-4 border">Current Escrow Players</th>
           </tr>
         </thead>
         <tbody>
           <tr className="text-gray-700 text-sm">
             <td className="p-4 border">Protection against fraud</td>
             <td className="p-4 border text-center">✔️</td>
-            <td className="p-4 border text-center">❌</td>
+            <td className="p-4 border text-center">✔️</td>
             <td className="p-4 border text-center">✔️</td>
             <td className="p-4 border text-center">❌</td>
           </tr>
@@ -359,34 +358,61 @@ export default function Escrow() {
               Protection against delayed/canceled shipment
             </td>
             <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">✔️</td>
             <td className="p-4 border text-center">❌</td>
-            <td className="p-4 border text-center">✔️</td>
-            <td className="p-4 border text-center">✔️</td>
           </tr>
           <tr className="text-gray-700 text-sm">
             <td className="p-4 border">Accessible to all SMEs</td>
             <td className="p-4 border text-center">✔️</td>
-            <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">❌</td>
             <td className="p-4 border text-center">✔️</td>
             <td className="p-4 border text-center">❌</td>
           </tr>
           <tr className="text-gray-700 text-sm">
-            <td className="p-4 border">No cumbersome paperwork</td>
+            <td className="p-4 border">Complexity and Paperwork</td>
             <td className="p-4 border text-center">✔️</td>
-            <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">❌</td>
             <td className="p-4 border text-center">❌</td>
             <td className="p-4 border text-center">❌</td>
           </tr>
           <tr className="text-gray-700 text-sm">
-            <td className="p-4 border">Low cost and no hidden fees</td>
+            <td className="p-4 border">Cost and Fees</td>
             <td className="p-4 border text-center">✔️</td>
-            <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">❌</td>
             <td className="p-4 border text-center">❌</td>
             <td className="p-4 border text-center">❌</td>
           </tr>
           <tr className="text-gray-700 text-sm">
             <td className="p-4 border">
-              Easy to amend (no fee) and track
+            Speed of Transactions
+            </td>
+            <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">❌</td>
+            <td className="p-4 border text-center">❌</td>
+            <td className="p-4 border text-center">❌</td>
+          </tr>
+          <tr className="text-gray-700 text-sm">
+            <td className="p-4 border">
+            Flexibility and Amendments
+            </td>
+            <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">❌</td>
+            <td className="p-4 border text-center">❌</td>
+            <td className="p-4 border text-center">❌</td>
+          </tr>
+          <tr className="text-gray-700 text-sm">
+            <td className="p-4 border">
+            Real-Time Fund Visibility
+            </td>
+            <td className="p-4 border text-center">✔️</td>
+            <td className="p-4 border text-center">❌</td>
+            <td className="p-4 border text-center">❌</td>
+            <td className="p-4 border text-center">❌</td>
+          </tr>
+          <tr className="text-gray-700 text-sm">
+            <td className="p-4 border">
+            User Experience
             </td>
             <td className="p-4 border text-center">✔️</td>
             <td className="p-4 border text-center">❌</td>
@@ -409,7 +435,7 @@ export default function Escrow() {
       <section className="py-12 px-40 bg-gray-100">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-4">
-            What Can You Buy & Sell Using Tazapay's Escrow?
+            What Can You Buy & Sell Using Trustopay's Escrow?
           </h2>
           <p className="text-center mb-8">
             Our escrow services can help secure funds through local payment
@@ -518,14 +544,14 @@ export default function Escrow() {
           <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
             <div className="mb-4">
               <span className="block w-12 h-12">
-                <img src={icon1} alt="Lock Icon" className="w-full h-full object-contain" />
+                <img src={how1} alt="Lock Icon" className="w-full h-full object-contain" />
               </span>
             </div>
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
-              Regulated payments partner
+            Bank Partnerships
             </h3>
             <p className="text-center text-gray-600">
-              Your money is securely held by an institution licensed and regulated by the Monetary Authority of Singapore (MAS).
+              YFunds are securely held in regulated accounts through partnerships with leading banks.
             </p>
           </div>
 
@@ -533,14 +559,14 @@ export default function Escrow() {
           <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
             <div className="mb-4">
               <span className="block w-12 h-12">
-                <img src={icon2} alt="Shield Icon" className="w-full h-full object-contain" />
+                <img src={how5} alt="Shield Icon" className="w-full h-full object-contain" />
               </span>
             </div>
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
-              Safeguarded with authorised banks
+            Verified by Trustees
             </h3>
             <p className="text-center text-gray-600">
-              In accordance with MAS regulatory requirements, all customer funds are safeguarded with an authorised bank in Singapore.
+             Trusted trustees oversee transactions to ensure compliance and security.
             </p>
           </div>
 
@@ -548,14 +574,56 @@ export default function Escrow() {
           <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
             <div className="mb-4">
               <span className="block w-12 h-12">
-                <img src={icon3} alt="Money Bag Icon" className="w-full h-full object-contain" />
+                <img src={how4} alt="Money Bag Icon" className="w-full h-full object-contain" />
               </span>
             </div>
             <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
-              Segregated customer funds
+            Secure payments
             </h3>
             <p className="text-center text-gray-600">
-              All customer funds at all times are segregated from our own corporate funds which we use to run our own business.
+            Advanced payment gateways protect your financial information from frauds
+            </p>
+          </div>
+          {/* fourth Item */}
+          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
+            <div className="mb-4">
+              <span className="block w-12 h-12">
+                <img src={how2} alt="Money Bag Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
+            Milestone Payments
+            </h3>
+            <p className="text-center text-gray-600">
+            Funds are released only upon the successful completion of agreed milestones, ensuring satisfaction before payment.
+            </p>
+          </div>
+          {/* fifth Item */}
+          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
+            <div className="mb-4">
+              <span className="block w-12 h-12">
+                <img src={how6} alt="Money Bag Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
+            Dispute Resolution
+            </h3>
+            <p className="text-center text-gray-600">
+            Our quick 3-step dispute resolution process addresses issues promptly, safeguarding your interests throughout the transaction.
+            </p>
+          </div>
+          {/* sixth Item */}
+          <div className="flex flex-col items-center p-6 bg-white shadow-lg rounded-lg">
+            <div className="mb-4">
+              <span className="block w-12 h-12">
+                <img src={how3} alt="Money Bag Icon" className="w-full h-full object-contain" />
+              </span>
+            </div>
+            <h3 className="text-xl font-semibold text-center text-gray-800 mb-2">
+            End-to-End Encryption
+            </h3>
+            <p className="text-center text-gray-600">
+            We implement end-to-end encryption to secure all transaction data, providing an additional layer of protection against cyber threats.
             </p>
           </div>
 
@@ -563,8 +631,12 @@ export default function Escrow() {
       </div>
     </div>
       </section>
+      
 
-      <div className="min-h-screen bg-white max-w-full overflow-hidden mx-0 md:mx-36 p-8  space-y-24">
+      
+
+
+      {/* <div className="min-h-screen bg-white max-w-full overflow-hidden mx-0 md:mx-36 p-8  space-y-24">
         <div className="text-center mb-12 space-y-8">
           <h2 className="text-xl w-full md:text-5xl font-bold bg-gradient-to-r from-[#703893] to-[#3f4195]  text-transparent bg-clip-text">
             Collect and Disburse to 173+ Markets with One Tazapay Account
@@ -575,7 +647,7 @@ export default function Escrow() {
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-          {/* Card 1 */}
+          
           <div className="bg-white rounded-xl shadow-lg p-6">
             <div className="flex items-center mb-4">
               <img
@@ -606,7 +678,7 @@ export default function Escrow() {
             <p className="text-md font-medium">Same day to 2 days settlement</p>
           </div>
 
-          {/* card 2 */}
+          
           <div className="bg-white rounded-xl shadow-lg p-6">
             <div className="flex items-center mb-4">
               <img
@@ -637,7 +709,7 @@ export default function Escrow() {
             <p className="text-md font-medium">Same day to 2 days settlement</p>
           </div>
 
-          {/* card 3 */}
+          
           <div className="bg-white rounded-xl shadow-lg p-6">
             <div className="flex items-center mb-4">
               <img
@@ -682,7 +754,8 @@ export default function Escrow() {
             Create an Escrow
           </button>
         </div>
-      </div>
+      </div> */}
+      <FaqComponent />
 
       <Footer />
     </>

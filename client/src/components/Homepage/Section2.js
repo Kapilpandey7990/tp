@@ -66,7 +66,7 @@ export default function Section2() {
           <div ref={contentRef} className={`mx-2 px-48 flex flex-col md:flex-row justify-center gap-4 md:mt-4  mt-8 mb-8 md:mb-4    ${contentInView ? 'animate-fade-up animate-once animate-ease-in' : 'opacity-0'}`}>
             <div className='gap-4 w-full md:w-1/2 flex flex-col  items-center '>
               {/* 1 */}
-              <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+              <div className="overflow-hidden h-[360px] md:h-60 w-80 md:w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <h2 className="text-xl font-semibold text-gray-900 mb-3">Secure Escrow</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">
@@ -86,7 +86,7 @@ export default function Section2() {
               </div>
 
               {/* 2 */}
-              <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+              <div className="overflow-hidden h-[360px] md:h-60 w-80 md:w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <h2 className="text-xl font-semibold text-gray-900 mb-3">Dispute Resolution</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">
@@ -109,7 +109,7 @@ export default function Section2() {
 
             <div className='gap-4 w-full md:w-1/2 flex flex-col items-center'>
               {/* 3 */}
-              <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+              <div className="overflow-hidden h-[360px] md:h-60 w-80 md:w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <h2 className="text-xl font-semibold text-gray-900 mb-3">Project Managment</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">
@@ -129,7 +129,7 @@ export default function Section2() {
               </div>
 
               {/* 4 */}
-              <div className="overflow-hidden h-[360px] md:h-80 w-80 md:w-full bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
+              <div className="overflow-hidden h-[360px] md:h-60 w-80 md:w-80 bg-gradient-to-b from-white to-indigo-100 p-6 rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300">
                 <h2 className="text-xl font-semibold text-gray-900 mb-3">Secure Payments</h2>
                 <ul className="text-gray-700 mb-6 space-y-2">
                   <li className="flex items-center">

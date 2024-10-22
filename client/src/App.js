@@ -17,6 +17,7 @@ import UseCases from './pages/UseCases';
 import Blog from './pages/Blog';
 import CaseStudiesPage from './pages/CaseStudiesPage';
 import CaseStudyDetail from './pages/CaseStudyDetail';
+import Buyer from './pages/Buyer';
 // import PayPalBlog from './pages/PayPalBlog';
 
 
@@ -32,6 +33,7 @@ export default function App() {
       <Route path="/" element={<HomePage/>} />
       <Route path="*" element={<Error404/>}/>
 
+      <Route path="/buyer" element={<Buyer/>}/>
       <Route path="/about" element={<AboutPage/>}/>
       <Route path="/contact" element={<ContactPage />} />
       {/* <Route path="/product/b2b" element={<B2B/>} /> */}

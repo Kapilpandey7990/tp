@@ -173,6 +173,7 @@ export default function Section4() {
 
             <h2 className="text-white font-bold text-2xl top-0 left-0 w-full p-6 flex flex-col justify-end z-10 opacity-100 transform origin-left duration-300 ease-in-out group-hover:scale-125">Second-hand Goods</h2>
             <div className="text-white text-xl font-semibold absolute bottom-0 left-0 w-full p-4 flex flex-col justify-end z-10 opacity-0 transform scale-95 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:scale-100">
+              
               <p>Trusted transactions for pre-owned items.</p>
             </div>
           </div>
