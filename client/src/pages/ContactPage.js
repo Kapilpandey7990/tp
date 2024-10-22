@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import PageHeader from '../components/shared/PageHeader';
 import Footer from '../components/shared/Footer';
 import GoogleMap from '../utils/GoogleMap';
-import { IoMdArrowRoundForward } from "react  -icons/io";
+import { IoMdArrowRoundForward } from "react-icons/io";
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import FaqComponent from '../components/FaqComponent';
