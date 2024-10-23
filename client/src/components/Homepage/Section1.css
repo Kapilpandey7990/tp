@@ -21,21 +21,21 @@
     position: absolute;
     width: 600px;
     height: 400px;
-    /* background-color: #e563f3; */
+    background-color: #9c63c7d1;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 10%;
     z-index: 1;
-    background-image: url("../../assets/images/partners/dash.png");
+    /* background-image: url("../../assets/images/partners/dash.png"); */
   }
   
   #hero-video {
     width: auto;
     height: auto;
-    max-height: 498px;
+    max-height: 427px;
     border-radius: 30px;
-    /* border: 5px solid black; */
+    border: 5px solid black;
     z-index: 2;
   }
   

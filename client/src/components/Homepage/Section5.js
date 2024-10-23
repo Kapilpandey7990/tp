@@ -123,12 +123,12 @@ export default function Section5() {
           </div>
           </div>
           <div className='flex justify-center items-center '>
-            <a href='/product/escrow'>
+            <a href='/contact'>
           <button
             type="button"
             className="py-3 px-8 mb-12 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-gray-200 bg-[#8965e4] text-white shadow-lg hover:bg-[#703893] focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#032A38] transition-all duration-300"
           >
-            know more about Escrow
+            Contact Us
             <svg
               className="shrink-0 h-5 w-5"
               xmlns="http://www.w3.org/2000/svg"

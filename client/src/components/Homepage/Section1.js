@@ -18,9 +18,9 @@ export default function Section1() {
     <div className="h-auto max-w-full overflow-hidden">
       <div className="flex flex-col md:flex-row items-start px-4  md:px-0  mt-16 md:mt-24">
         {/* Left Side Content */}
-        <div className="flex-1 font-custom w-full md:w-1/2 space-y-4 md:space-y-6  justify-center md:ml-36 md:mr-2  transform -translate-y-8 md:-translate-y-8">
+        <div className="flex-1 font-custom w-full md:w-1/2 space-y-4 md:space-y-6 mt-4 justify-center md:ml-36 md:mr-2  transform -translate-y-8 md:-translate-y-8">
           <div className=" animate-fade-up animate-once max-w-full">
-            <h1 className="text-4xl md:text-4xl font-bold text-black mb-2">
+            <h1 className="text-4xl md:text-4xl font-bold text-black  mb-2">
               Your Trusted Payment Solution for Secure Transactions, Built on Trust
             </h1>
             {/* <h1 className="text-4xl md:text-5xl font-bold text-black">
@@ -113,11 +113,11 @@ export default function Section1() {
         <div className="hero-media">
           <div className="video-wrapper">
             <div className="circle-background"></div>
-            {/* <video id="hero-video" autoPlay muted loop>
+            <video id="hero-video" autoPlay muted loop>
       <source src={video} type="video/mp4" />
       Your browser does not support the video tag.
-    </video> */}
-            <img id="hero-video" src={HDashboard} alt="" />
+    </video>
+            {/* <img id="hero-video" src={HDashboard} alt="" /> */}
           </div>
         </div>
       </div>
